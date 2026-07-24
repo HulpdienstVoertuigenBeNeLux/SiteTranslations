@@ -1,1 +1,5 @@
-
+{
+  "site_title": "My Awesome Site",
+  "welcome_heading": "Hello World!",
+  "welcome_text": "This content and its translations are pulled directly from GitHub!"
+}
