@@ -96,6 +96,27 @@
     "error_message": "Something went wrong. Please try again.",
     "select_reason_error": "Select a reason for contact",
     "sending": "Sending...",
-    "send_failed": "Failed to send message"
+    "send_failed": "Failed to send message",
+    "email": {
+      "user_subject": "[{{ticket}}] Contact request confirmation - HulpdienstvoertuigenBenelux",
+      "user_greeting": "Dear {{naam}},",
+      "user_received": "We have received your contact request and will get back to you as soon as possible.",
+      "user_ticket_label": "Your ticket number",
+      "user_summary_title": "Summary of your request",
+      "user_reason_label": "Reason",
+      "user_message_label": "Your message",
+      "user_info_title": "Important information",
+      "user_info_ticket": "Keep your ticket number {{ticket}} handy for reference",
+      "user_info_response": "We aim to respond within 2 business days",
+      "user_regards": "Kind regards,",
+      "user_team": "HulpdienstvoertuigenBenelux Team",
+      "user_footer_text": "This is an automatically generated email. Please do not reply directly to this message.",
+      "admin_subject": "[{{ticket}}] Hulpdienstvoertuigenbenelux - {{reden}} - {{naam}}",
+      "admin_ticket": "Ticket number",
+      "admin_naam": "Name",
+      "admin_email": "Email",
+      "admin_reden": "Reason",
+      "admin_bericht": "Message"
+    }
   }
 }
