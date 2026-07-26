@@ -111,6 +111,12 @@
       "user_regards": "Met vriendelijke groet,",
       "user_team": "Team HulpdienstvoertuigenBenelux",
       "user_footer_text": "Dit is een automatisch gegenereerde e-mail. Reageer niet direct op dit bericht.",
+      "user_reasons": {
+        "vraag": "Ik heb een vraag",
+        "ontbrekend": "Ontbrekende informatie",
+        "update": "Informatie moet bijgewerkt worden",
+        "overig": "Overig"
+      },
       "admin_subject": "[{{ticket}}] Hulpdienstvoertuigenbenelux - {{reden}} - {{naam}}",
       "admin_ticket": "Ticketnummer",
       "admin_naam": "Naam",
