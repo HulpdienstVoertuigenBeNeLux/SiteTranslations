@@ -1,4 +1,18 @@
 {
+  "updates": {
+    "hero_title": "Updates",
+    "hero_subtitle": "All changes to vehicles in the Benelux",
+    "search_placeholder": "Search in updates...",
+    "filter_all": "All Updates",
+    "filter_all_services": "All Emergency Services",
+    "filter_all_regions": "All Regions",
+    "loading_title": "Loading updates...",
+    "loading_text": "Please wait a moment",
+    "no_updates_title": "No updates yet",
+    "no_updates_text": "No updates are available yet. Check back later!",
+    "error_title": "Error loading",
+    "error_text": "An error occurred while loading the updates."
+  },
   "over_ons": {
     "hero_title": "About Us",
     "hero_subtitle": "Discover the story behind Hulpdienstvoertuigen BeNeLux",
