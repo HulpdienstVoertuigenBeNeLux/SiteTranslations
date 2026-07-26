@@ -96,6 +96,27 @@
     "error_message": "Er is iets misgegaan. Probeer het opnieuw.",
     "select_reason_error": "Selecteer een reden voor contact",
     "sending": "Verzenden...",
-    "send_failed": "Verzenden mislukt"
+    "send_failed": "Verzenden mislukt",
+    "email": {
+      "user_subject": "[{{ticket}}] Bevestiging van uw contactverzoek - HulpdienstvoertuigenBenelux",
+      "user_greeting": "Beste {{naam}},",
+      "user_received": "Wij hebben uw contactverzoek goed ontvangen en zullen zo spoedig mogelijk contact met u opnemen.",
+      "user_ticket_label": "Uw ticketnummer",
+      "user_summary_title": "Samenvatting van uw verzoek",
+      "user_reason_label": "Reden",
+      "user_message_label": "Uw bericht",
+      "user_info_title": "Belangrijke informatie",
+      "user_info_ticket": "Houd uw ticketnummer {{ticket}} bij de hand voor referentie",
+      "user_info_response": "Wij streven ernaar binnen 2 werkdagen te reageren",
+      "user_regards": "Met vriendelijke groet,",
+      "user_team": "Team HulpdienstvoertuigenBenelux",
+      "user_footer_text": "Dit is een automatisch gegenereerde e-mail. Reageer niet direct op dit bericht.",
+      "admin_subject": "[{{ticket}}] Hulpdienstvoertuigenbenelux - {{reden}} - {{naam}}",
+      "admin_ticket": "Ticketnummer",
+      "admin_naam": "Naam",
+      "admin_email": "Email",
+      "admin_reden": "Reden",
+      "admin_bericht": "Bericht"
+    }
   }
 }
