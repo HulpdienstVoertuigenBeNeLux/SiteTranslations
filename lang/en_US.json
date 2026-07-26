@@ -111,6 +111,12 @@
       "user_regards": "Kind regards,",
       "user_team": "HulpdienstvoertuigenBenelux Team",
       "user_footer_text": "This is an automatically generated email. Please do not reply directly to this message.",
+      "user_reasons": {
+        "vraag": "I have a question",
+        "ontbrekend": "Missing information",
+        "update": "Information needs to be updated",
+        "overig": "Other"
+      },
       "admin_subject": "[{{ticket}}] Hulpdienstvoertuigenbenelux - {{reden}} - {{naam}}",
       "admin_ticket": "Ticket number",
       "admin_naam": "Name",
