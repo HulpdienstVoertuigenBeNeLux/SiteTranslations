@@ -1,4 +1,18 @@
 {
+  "updates": {
+    "hero_title": "Updates",
+    "hero_subtitle": "Alle wijzigingen aan voertuigen in de Benelux",
+    "search_placeholder": "Zoek in updates...",
+    "filter_all": "Alle Updates",
+    "filter_all_services": "Alle Hulpdiensten",
+    "filter_all_regions": "Alle Regio's",
+    "loading_title": "Updates laden...",
+    "loading_text": "Even geduld alstublieft",
+    "no_updates_title": "Nog geen updates",
+    "no_updates_text": "Er zijn nog geen updates beschikbaar. Check later opnieuw!",
+    "error_title": "Fout bij laden",
+    "error_text": "Er is een fout opgetreden bij het laden van de updates."
+  },
   "over_ons": {
     "hero_title": "Over Ons",
     "hero_subtitle": "Ontdek het verhaal achter Hulpdienstvoertuigen BeNeLux",
