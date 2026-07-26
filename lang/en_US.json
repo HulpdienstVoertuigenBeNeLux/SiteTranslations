@@ -21,13 +21,13 @@
     "filter_voertuig-toevoeging": "Vehicle Addition",
     "filter_voertuig-wijziging": "Vehicle Change",
     "filter_voertuig-verwijdering": "Vehicle Removal",
-    "stat_total": "Total",
-    "stat_additions": "Additions",
-    "stat_changes": "Changes",
-    "stat_removals": "Removals",
-    "stat_total_additions": "Total additions",
-    "stat_total_changes": "Total changes",
-    "stat_total_removals": "Total removals"
+    "stat_total": "Total:",
+    "stat_additions": "Additions:",
+    "stat_changes": "Changes:",
+    "stat_removals": "Removals:",
+    "stat_total_additions": "Total additions:",
+    "stat_total_changes": "Total changes:",
+    "stat_total_removals": "Total removals:"
   },
   "over_ons": {
     "hero_title": "About Us",
