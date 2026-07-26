@@ -1,0 +1,14 @@
+[
+  {
+    "code": "nl_NL",
+    "name": "Nederlands",
+    "flagUrl": "https://flagcdn.com/nl.svg",
+    "priority": 0
+  },
+  {
+    "code": "en_US",
+    "name": "English",
+    "flagUrl": "https://flagcdn.com/gb.svg",
+    "priority": 1
+  }
+]
