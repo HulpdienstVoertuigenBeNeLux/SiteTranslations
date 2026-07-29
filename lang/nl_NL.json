@@ -125,5 +125,28 @@
       "admin_reden": "Reden",
       "admin_bericht": "Bericht"
     }
+  },
+  "donaties": {
+    "page_title": "Steun Ons - HulpdienstvoertuigenBenelux",
+    "meta_description": "Steun Hulpdienstvoertuigen Benelux met een donatie. Help ons de database online en actueel te houden. Elke bijdrage, groot of klein, maakt het verschil.",
+    "og_title": "Steun Ons - HulpdienstvoertuigenBenelux",
+    "og_description": "Steun Hulpdienstvoertuigen Benelux met een donatie. Help ons de database online en actueel te houden.",
+    "twitter_title": "Steun Ons - HulpdienstvoertuigenBenelux",
+    "twitter_description": "Steun Hulpdienstvoertuigen Benelux met een donatie.",
+    "hero_title": "Steun Ons",
+    "hero_subtitle": "Help mee de database groeien en actueel te houden",
+    "logo_alt": "Hulpdienstvoertuigen BeNeLux Logo",
+    "support_title": "Jouw steun maakt het verschil",
+    "support_text": "Vind je deze site handig? <strong>Help ons de database online en actueel te houden.</strong><br>Met jouw bijdrage kunnen wij hosting, onderhoud en het uitbreiden van alle voertuiggegevens blijven realiseren. Elke donatie, groot of klein, zorgt ervoor dat deze unieke bron blijft groeien.",
+    "button_text": "Steun ons via TipeeeStream",
+    "progress_title": "Onze voortgang",
+    "goal_label": "Opgehaald deze maand",
+    "goal_loading": "Doel laden...",
+    "wall_title": "Donatie Muur",
+    "wall_description": "Een enorm dankjewel aan al onze donateurs! Jullie steun zorgt ervoor dat deze site blijft bestaan en groeien.",
+    "loading_text": "Donaties laden...",
+    "empty_text": "Nog geen donaties ontvangen. Wees de eerste!",
+    "error_text": "Donaties konden niet worden geladen.",
+    "badge_subscriber": "Lid"
   }
 }
