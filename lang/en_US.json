@@ -125,5 +125,28 @@
       "admin_reden": "Reason",
       "admin_bericht": "Message"
     }
+  },
+  "donaties": {
+    "page_title": "Support Us - HulpdienstvoertuigenBenelux",
+    "meta_description": "Support Hulpdienstvoertuigen Benelux with a donation. Help us keep the database online and up to date. Every contribution, big or small, makes a difference.",
+    "og_title": "Support Us - HulpdienstvoertuigenBenelux",
+    "og_description": "Support Hulpdienstvoertuigen Benelux with a donation. Help us keep the database online and up to date.",
+    "twitter_title": "Support Us - HulpdienstvoertuigenBenelux",
+    "twitter_description": "Support Hulpdienstvoertuigen Benelux with a donation.",
+    "hero_title": "Support Us",
+    "hero_subtitle": "Help us keep the database growing and up to date",
+    "logo_alt": "Hulpdienstvoertuigen BeNeLux Logo",
+    "support_title": "Your support makes the difference",
+    "support_text": "Do you find this site useful? <strong>Help us keep the database online and up to date.</strong><br>With your contribution, we can continue to realize hosting, maintenance, and expansion of all vehicle data. Every donation, big or small, ensures this unique resource continues to grow.",
+    "button_text": "Support us via TipeeeStream",
+    "progress_title": "Our Progress",
+    "goal_label": "Raised this month",
+    "goal_loading": "Loading goal...",
+    "wall_title": "Donation Wall",
+    "wall_description": "A huge thank you to all our donors! Your support ensures this site continues to exist and grow.",
+    "loading_text": "Loading donations...",
+    "empty_text": "No donations received yet. Be the first!",
+    "error_text": "Donations could not be loaded.",
+    "badge_subscriber": "Member"
   }
 }
