@@ -6,11 +6,19 @@ Source keys missing in at least one file: 0
 
 Missing source keys by file
 ---------------------------
+de_DE.json: 0 missing
+
 en_US.json: 0 missing
+
+fr_FR.json: 0 missing
 
 Extra keys not in source
 ------------------------
+de_DE.json: 0 extra
+
 en_US.json: 0 extra
+
+fr_FR.json: 0 extra
 
 Missing files by key
 --------------------
