@@ -27,7 +27,8 @@
     "stat_removals": "Entfernt:",
     "stat_total_additions": "Gesamte Hinzufügungen:",
     "stat_total_changes": "Gesamte Änderungen:",
-    "stat_total_removals": "Gesamte Entfernungen:"
+    "stat_total_removals": "Gesamte Entfernungen:",
+    "test": "Dies ist ein Testupdate"
   },
   "over_ons": {
     "hero_title": "Über uns",
