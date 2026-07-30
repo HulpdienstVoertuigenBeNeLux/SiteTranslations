@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   check-translations:
@@ -22,6 +23,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run translation key comparison
+        id: check
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
@@ -30,6 +32,12 @@ jobs:
           else
             python check/compare_lang_keys.py
           fi
+
+      - name: Trigger auto-translate workflow if keys are missing
+        if: steps.check.outputs.has_missing == 'true'
+        run: gh workflow run auto-translate.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit updated report
         run: |
