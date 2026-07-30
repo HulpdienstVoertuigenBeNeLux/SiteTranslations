@@ -18,7 +18,7 @@ LANG_DIR = PROJECT_ROOT / "lang"
 SOURCE_FILE = "nl_NL.json"
 SOURCE_LANG = "nl"
 # Small delay between API calls to avoid rate limiting.
-TRANSLATE_DELAY_SECONDS = 0.2
+TRANSLATE_DELAY_SECONDS = 1
 
 
 def flatten_leaf_keys(value: Any, prefix: str = "") -> set[str]:
