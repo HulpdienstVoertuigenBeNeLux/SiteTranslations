@@ -261,8 +261,16 @@ def post_discord_payload(
         method="POST",
     )
 
-    with urllib.request.urlopen(request, timeout=timeout_seconds):
-        pass
+    try:
+        with urllib.request.urlopen(request, timeout=timeout_seconds):
+            pass
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        raise ValueError(
+            f"Discord webhook returned HTTP {exc.code}: {exc.reason} — {body}"
+        ) from exc
+    except urllib.error.URLError as exc:
+        raise ValueError(f"Failed to reach Discord webhook: {exc.reason}") from exc
 
 
 def notify_discord_on_missing(
@@ -397,8 +405,7 @@ def main() -> int:
             if missing_by_key:
                 print("Discord notification sent.")
         except ValueError as exc:
-            print(f"Error: {exc}", file=sys.stderr)
-            return 1
+            print(f"Warning: {exc}", file=sys.stderr)
 
     return 0
 
