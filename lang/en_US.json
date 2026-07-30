@@ -27,7 +27,8 @@
     "stat_removals": "Removals:",
     "stat_total_additions": "Total additions:",
     "stat_total_changes": "Total changes:",
-    "stat_total_removals": "Total removals:"
+    "stat_total_removals": "Total removals:",
+    "test": "This is a test update"
   },
   "over_ons": {
     "hero_title": "About Us",
