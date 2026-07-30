@@ -257,7 +257,10 @@ def post_discord_payload(
     request = urllib.request.Request(
         webhook_url,
         data=data,
-        headers={"Content-Type": "application/json"},
+        headers={
+            "Content-Type": "application/json",
+            "User-Agent": "TranslationsChecker/1.0",
+        },
         method="POST",
     )
 
