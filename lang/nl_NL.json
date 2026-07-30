@@ -27,7 +27,8 @@
     "stat_removals": "Verwijderingen:",
     "stat_total_additions": "Totaal toevoegingen:",
     "stat_total_changes": "Totaal wijzigingen:",
-    "stat_total_removals": "Totaal verwijderingen:"
+    "stat_total_removals": "Totaal verwijderingen:",
+    "test": "Dit is een test update"
   },
   "over_ons": {
     "hero_title": "Over Ons",
