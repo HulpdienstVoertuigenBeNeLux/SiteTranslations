@@ -12,6 +12,12 @@
     "priority": 1
   },
   {
+    "code": "de_DE",
+    "name": "Deutsch",
+    "flagUrl": "https://flagcdn.com/de.svg",
+    "priority": 2
+  },
+  {
     "code": "fr_FR",
     "name": "Francais",
     "flagUrl": "https://flagcdn.com/fr.svg",
