@@ -10,5 +10,11 @@
     "name": "English",
     "flagUrl": "https://flagcdn.com/gb.svg",
     "priority": 1
+  },
+  {
+    "code": "de_DE",
+    "name": "Deutsch",
+    "flagUrl": "https://flagcdn.com/de.svg",
+    "priority": 2
   }
 ]
