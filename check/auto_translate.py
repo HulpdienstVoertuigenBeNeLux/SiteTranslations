@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -56,6 +57,28 @@ def locale_to_lang(filename: str) -> str:
     return Path(filename).stem.split("_")[0].lower()
 
 
+def get_source_from_main() -> dict:
+    """Fetch the latest source (nl_NL.json) from the main branch.
+    
+    This ensures we translate only keys still missing after any manual edits on main.
+    """
+    try:
+        result = subprocess.run(
+            ["git", "show", "origin/main:lang/nl_NL.json"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        return json.loads(result.stdout)
+    except subprocess.CalledProcessError:
+        print(
+            "Warning: Could not fetch nl_NL.json from origin/main, using current branch.",
+            file=sys.stderr,
+        )
+        source_path = LANG_DIR / SOURCE_FILE
+        return json.loads(source_path.read_text(encoding="utf-8"))
+
+
 def translate_value(value: Any, translator: GoogleTranslator) -> Any:
     if not isinstance(value, str) or not value.strip():
         return value
@@ -68,12 +91,8 @@ def translate_value(value: Any, translator: GoogleTranslator) -> Any:
 
 
 def main() -> int:
-    source_path = LANG_DIR / SOURCE_FILE
-    if not source_path.exists():
-        print(f"Error: Source file not found: {source_path}", file=sys.stderr)
-        return 1
-
-    source_data = json.loads(source_path.read_text(encoding="utf-8"))
+    # Fetch the latest source from main to account for manual edits
+    source_data = get_source_from_main()
     source_keys = flatten_leaf_keys(source_data)
 
     locale_files = sorted(LANG_DIR.glob("*.json"))

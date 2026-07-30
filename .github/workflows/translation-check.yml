@@ -33,12 +33,6 @@ jobs:
             python check/compare_lang_keys.py
           fi
 
-      - name: Trigger auto-translate workflow if keys are missing
-        if: steps.check.outputs.has_missing == 'true'
-        run: gh workflow run auto-translate.yml
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Commit updated report
         run: |
           if git diff --quiet -- check/missing-keys-report.txt; then

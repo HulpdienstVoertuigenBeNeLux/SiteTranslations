@@ -1,6 +1,9 @@
 name: Auto Translate Missing Keys
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -36,20 +39,24 @@ jobs:
 
             **Please review all translations before merging** - machine translations may be inaccurate, especially for values containing HTML.
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
           if git diff --quiet -- lang/; then
-            echo "No translation changes to commit."
+            echo "No translation changes found. Closing PR if it exists."
+            if gh pr view auto-translate --json state 2>/dev/null | grep -q "OPEN"; then
+              gh pr close auto-translate
+            fi
+            git push origin --delete auto-translate 2>/dev/null || true
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          branch="auto-translate-$(date +%Y%m%d%H%M%S)"
-          git checkout -b "$branch"
+          git checkout -b auto-translate || git checkout auto-translate
           git add lang/
           git commit -m "chore: auto-translate missing translation keys"
-          git push origin "$branch"
+          git push -f origin auto-translate
           gh pr create \
             --title "Auto-translate: fill missing translation keys" \
             --body "$PR_BODY" \
             --base main \
-            --head "$branch"
+            --head auto-translate 2>/dev/null || gh pr edit auto-translate --body "$PR_BODY"
