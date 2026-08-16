@@ -25,7 +25,7 @@ PROTECTED_TERMS = [
     "BeNeLux",
 ]
 # Small delay between API calls to avoid rate limiting.
-TRANSLATE_DELAY_SECONDS = 1
+TRANSLATE_DELAY_SECONDS = 0.2
 
 
 def flatten_leaf_keys(value: Any, prefix: str = "") -> set[str]:
