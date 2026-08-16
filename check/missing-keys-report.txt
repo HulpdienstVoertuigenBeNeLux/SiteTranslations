@@ -1,12 +1,12 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 713
-Source keys missing in at least one file: 404
+Total source keys: 717
+Source keys missing in at least one file: 408
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 404 missing
+de_DE.json: 408 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -18,6 +18,10 @@ de_DE.json: 404 missing
   - afkortingen.og_description
   - afkortingen.og_title
   - afkortingen.page_title
+  - afkortingen.region_be
+  - afkortingen.region_lux
+  - afkortingen.region_nl
+  - afkortingen.search_placeholder
   - afkortingen.twitter_description
   - afkortingen.twitter_title
   - afkortingen.word
@@ -414,7 +418,7 @@ de_DE.json: 404 missing
 
 en_US.json: 0 missing
 
-fr_FR.json: 404 missing
+fr_FR.json: 408 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -426,6 +430,10 @@ fr_FR.json: 404 missing
   - afkortingen.og_description
   - afkortingen.og_title
   - afkortingen.page_title
+  - afkortingen.region_be
+  - afkortingen.region_lux
+  - afkortingen.region_nl
+  - afkortingen.search_placeholder
   - afkortingen.twitter_description
   - afkortingen.twitter_title
   - afkortingen.word
@@ -841,6 +849,10 @@ afkortingen.not_loaded: de_DE.json, fr_FR.json
 afkortingen.og_description: de_DE.json, fr_FR.json
 afkortingen.og_title: de_DE.json, fr_FR.json
 afkortingen.page_title: de_DE.json, fr_FR.json
+afkortingen.region_be: de_DE.json, fr_FR.json
+afkortingen.region_lux: de_DE.json, fr_FR.json
+afkortingen.region_nl: de_DE.json, fr_FR.json
+afkortingen.search_placeholder: de_DE.json, fr_FR.json
 afkortingen.twitter_description: de_DE.json, fr_FR.json
 afkortingen.twitter_title: de_DE.json, fr_FR.json
 afkortingen.word: de_DE.json, fr_FR.json
