@@ -155,7 +155,8 @@
     "loading_text": "Loading donations...",
     "empty_text": "No donations received yet. Be the first!",
     "error_text": "Donations could not be loaded.",
-    "badge_subscriber": "Member"
+    "badge_subscriber": "Member",
+    "goal_description": "Monthly goal for hosting, domain and maintenance"
   },
   "fotowedstrijd": {
     "page_title": "Photo Contest - HulpdienstvoertuigenBenelux",
