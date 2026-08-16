@@ -155,7 +155,8 @@
     "loading_text": "Donaties laden...",
     "empty_text": "Nog geen donaties ontvangen. Wees de eerste!",
     "error_text": "Donaties konden niet worden geladen.",
-    "badge_subscriber": "Lid"
+    "badge_subscriber": "Lid",
+    "goal_description": "Maandelijks doel voor hosting, domein en onderhoud"
   },
   "fotowedstrijd": {
     "page_title": "Fotowedstrijd - HulpdienstvoertuigenBenelux",
