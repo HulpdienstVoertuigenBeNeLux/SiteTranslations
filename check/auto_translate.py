@@ -113,19 +113,19 @@ def get_source_from_main() -> dict:
         return json.loads(source_path.read_text(encoding="utf-8"))
 
 
-def translate_value(value: Any, translator: GoogleTranslator) -> Any:
+def translate_value(value: Any, translator: GoogleTranslator) -> tuple[Any, bool]:
     if not isinstance(value, str) or not value.strip():
-        return value
+        return value, True
 
     protected_value, replacements = protect_terms(value, PROTECTED_TERMS)
 
     try:
         result = translator.translate(protected_value)
         translated = result if result else protected_value
-        return restore_terms(translated, replacements)
+        return restore_terms(translated, replacements), True
     except Exception as exc:
-        print(f"  Warning: translation failed ({exc}), keeping source value.", file=sys.stderr)
-        return value
+        print(f"  Warning: translation failed ({exc}), skipping this key.", file=sys.stderr)
+        return None, False
 
 
 def main() -> int:
@@ -151,20 +151,32 @@ def main() -> int:
 
         print(f"{file_path.name}: translating {len(missing_keys)} missing keys to '{target_lang}'...")
         translator = GoogleTranslator(source=SOURCE_LANG, target=target_lang)
+        translated_count = 0
+        skipped_count = 0
 
         for key in missing_keys:
             source_value = get_nested(source_data, key)
-            translated = translate_value(source_value, translator)
+            translated, ok = translate_value(source_value, translator)
+            if not ok:
+                skipped_count += 1
+                print(f"  {key}: skipped (translation failed)")
+                time.sleep(TRANSLATE_DELAY_SECONDS)
+                continue
+
             set_nested(target_data, key, translated)
+            translated_count += 1
             print(f"  {key}: {repr(translated)}")
             time.sleep(TRANSLATE_DELAY_SECONDS)
 
-        file_path.write_text(
-            json.dumps(target_data, indent=2, ensure_ascii=False) + "\n",
-            encoding="utf-8",
-        )
-        print(f"{file_path.name}: updated.")
-        any_translated = True
+        if translated_count > 0:
+            file_path.write_text(
+                json.dumps(target_data, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
+            print(f"{file_path.name}: updated ({translated_count} added, {skipped_count} skipped).")
+            any_translated = True
+        else:
+            print(f"{file_path.name}: no keys added ({skipped_count} skipped).")
 
     if not any_translated:
         print("Nothing to translate.")
