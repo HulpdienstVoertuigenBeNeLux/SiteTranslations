@@ -41,6 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
           
           if git diff --quiet -- lang/; then
             echo "No translation changes found. Closing PR if it exists."
@@ -51,7 +52,8 @@ jobs:
             exit 0
           fi
 
-          git checkout -b auto-translate || git checkout auto-translate
+          # Always rebuild branch from latest main so stale commits are dropped.
+          git checkout -B auto-translate origin/main
           git add lang/
           git commit -m "chore: auto-translate missing translation keys"
           git push -f origin auto-translate
