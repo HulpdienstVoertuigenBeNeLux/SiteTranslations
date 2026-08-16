@@ -1,12 +1,12 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 711
-Source keys missing in at least one file: 402
+Total source keys: 712
+Source keys missing in at least one file: 403
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 402 missing
+de_DE.json: 403 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -347,6 +347,7 @@ de_DE.json: 402 missing
   - profile.og_title
   - profile.page_title
   - profile.pending
+  - profile.reject_reason_admin
   - profile.rejected
   - profile.resubmit
   - profile.section_approved
@@ -412,7 +413,7 @@ de_DE.json: 402 missing
 
 en_US.json: 0 missing
 
-fr_FR.json: 402 missing
+fr_FR.json: 403 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -753,6 +754,7 @@ fr_FR.json: 402 missing
   - profile.og_title
   - profile.page_title
   - profile.pending
+  - profile.reject_reason_admin
   - profile.rejected
   - profile.resubmit
   - profile.section_approved
@@ -1166,6 +1168,7 @@ profile.og_description: de_DE.json, fr_FR.json
 profile.og_title: de_DE.json, fr_FR.json
 profile.page_title: de_DE.json, fr_FR.json
 profile.pending: de_DE.json, fr_FR.json
+profile.reject_reason_admin: de_DE.json, fr_FR.json
 profile.rejected: de_DE.json, fr_FR.json
 profile.resubmit: de_DE.json, fr_FR.json
 profile.section_approved: de_DE.json, fr_FR.json
