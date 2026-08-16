@@ -299,6 +299,8 @@
     "label_roepnummer_kenteken": "Call Sign / License Plate"
   },
   "upload": {
+    "submitting": "Sending...",
+    "discord_logout": "Log out",
     "page_title": "Upload Photos - HulpdienstvoertuigenBenelux",
     "meta_description": "Upload photos of emergency service vehicles from the Netherlands, Belgium and Luxembourg. Share your photos of police, fire and ambulance vehicles.",
     "og_title": "Upload Photos - HulpdienstvoertuigenBenelux",
