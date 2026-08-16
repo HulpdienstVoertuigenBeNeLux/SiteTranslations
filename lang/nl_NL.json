@@ -406,7 +406,11 @@
     "no_results": "Geen afkortingen gevonden die matchen met je zoekopdracht.",
     "empty": "Nog geen afkortingen beschikbaar voor dit land.",
     "load_error": "Afkortingen konden niet worden geladen. Probeer het later opnieuw.",
-    "not_loaded": "Gegevens zijn nog niet geladen."
+    "not_loaded": "Gegevens zijn nog niet geladen.",
+    "search_placeholder": "Zoek een afkorting of omschrijving",
+    "region_nl": "Nederland",
+    "region_be": "België",
+    "region_lux": "Luxemburg"
   },
   "kaart": {
     "page_title": "Kaart - HulpdienstvoertuigenBenelux",
