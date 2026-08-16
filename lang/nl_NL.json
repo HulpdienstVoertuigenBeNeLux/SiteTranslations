@@ -525,7 +525,8 @@
     "upload_sending": "Versturen...",
     "upload_ok": "Foto ingestuurd!",
     "upload_error": "Er is een fout opgetreden",
-    "upload_conn_error": "Verbindingsfout bij insturen"
+    "upload_conn_error": "Verbindingsfout bij insturen",
+    "reject_reason_admin": "Verwijderd door beheerder"
   },
   "privacy": {
     "page_title": "Privacybeleid - HulpdienstvoertuigenBenelux",
