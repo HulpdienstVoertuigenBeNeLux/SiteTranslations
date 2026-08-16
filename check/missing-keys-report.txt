@@ -1,12 +1,12 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 717
-Source keys missing in at least one file: 408
+Total source keys: 718
+Source keys missing in at least one file: 409
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 408 missing
+de_DE.json: 409 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -176,6 +176,7 @@ de_DE.json: 408 missing
   - nav.updates
   - nav.upload_photos
   - nav.vehicles
+  - over_ons.page_title
   - post.breadcrumb_map
   - post.hero_subtitle
   - post.hero_title
@@ -418,7 +419,7 @@ de_DE.json: 408 missing
 
 en_US.json: 0 missing
 
-fr_FR.json: 408 missing
+fr_FR.json: 409 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -588,6 +589,7 @@ fr_FR.json: 408 missing
   - nav.updates
   - nav.upload_photos
   - nav.vehicles
+  - over_ons.page_title
   - post.breadcrumb_map
   - post.hero_subtitle
   - post.hero_title
@@ -1007,6 +1009,7 @@ nav.profile: de_DE.json, fr_FR.json
 nav.updates: de_DE.json, fr_FR.json
 nav.upload_photos: de_DE.json, fr_FR.json
 nav.vehicles: de_DE.json, fr_FR.json
+over_ons.page_title: de_DE.json, fr_FR.json
 post.breadcrumb_map: de_DE.json, fr_FR.json
 post.hero_subtitle: de_DE.json, fr_FR.json
 post.hero_title: de_DE.json, fr_FR.json
