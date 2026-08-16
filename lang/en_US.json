@@ -406,7 +406,11 @@
     "no_results": "No abbreviations found matching your search.",
     "empty": "No abbreviations available for this country yet.",
     "load_error": "The abbreviations could not be loaded. Please try again later.",
-    "not_loaded": "Data has not been loaded yet."
+    "not_loaded": "Data has not been loaded yet.",
+    "search_placeholder": "Search for an abbreviation or description",
+    "region_nl": "Netherlands",
+    "region_be": "Belgium",
+    "region_lux": "Luxembourg"
   },
   "kaart": {
     "page_title": "Map - HulpdienstvoertuigenBenelux",
