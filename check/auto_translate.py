@@ -21,6 +21,8 @@ SOURCE_LANG = "nl"
 PROTECTED_TERMS = [
     # Keep site/brand names unchanged across all locales (case-insensitive match).
     "HulpdienstvoertuigenBeNeLux",
+    "Hulpdienstvoertuigen",
+    "BeNeLux",
 ]
 # Small delay between API calls to avoid rate limiting.
 TRANSLATE_DELAY_SECONDS = 1
