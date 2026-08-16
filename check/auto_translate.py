@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 import time
@@ -17,6 +18,10 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 LANG_DIR = PROJECT_ROOT / "lang"
 SOURCE_FILE = "nl_NL.json"
 SOURCE_LANG = "nl"
+PROTECTED_TERMS = [
+    # Keep site/brand names unchanged across all locales (case-insensitive match).
+    "HulpdienstvoertuigenBeNeLux",
+]
 # Small delay between API calls to avoid rate limiting.
 TRANSLATE_DELAY_SECONDS = 1
 
@@ -57,6 +62,33 @@ def locale_to_lang(filename: str) -> str:
     return Path(filename).stem.split("_")[0].lower()
 
 
+def protect_terms(text: str, terms: list[str]) -> tuple[str, dict[str, str]]:
+    if not terms:
+        return text, {}
+
+    # Prefer longest matches first to avoid partial overlaps.
+    sorted_terms = sorted(terms, key=len, reverse=True)
+    pattern = re.compile("|".join(re.escape(term) for term in sorted_terms), re.IGNORECASE)
+    replacements: dict[str, str] = {}
+    counter = 0
+
+    def _replace(match: re.Match[str]) -> str:
+        nonlocal counter
+        token = f"__PROTECTED_TERM_{counter}__"
+        replacements[token] = match.group(0)
+        counter += 1
+        return token
+
+    return pattern.sub(_replace, text), replacements
+
+
+def restore_terms(text: str, replacements: dict[str, str]) -> str:
+    restored = text
+    for token, original in replacements.items():
+        restored = restored.replace(token, original)
+    return restored
+
+
 def get_source_from_main() -> dict:
     """Fetch the latest source (nl_NL.json) from the main branch.
     
@@ -82,9 +114,13 @@ def get_source_from_main() -> dict:
 def translate_value(value: Any, translator: GoogleTranslator) -> Any:
     if not isinstance(value, str) or not value.strip():
         return value
+
+    protected_value, replacements = protect_terms(value, PROTECTED_TERMS)
+
     try:
-        result = translator.translate(value)
-        return result if result else value
+        result = translator.translate(protected_value)
+        translated = result if result else protected_value
+        return restore_terms(translated, replacements)
     except Exception as exc:
         print(f"  Warning: translation failed ({exc}), keeping source value.", file=sys.stderr)
         return value
