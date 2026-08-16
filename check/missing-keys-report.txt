@@ -1,12 +1,12 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 712
-Source keys missing in at least one file: 403
+Total source keys: 713
+Source keys missing in at least one file: 404
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 403 missing
+de_DE.json: 404 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -122,6 +122,7 @@ de_DE.json: 403 missing
   - cookiebeleid.toc_which
   - cookiebeleid.twitter_description
   - cookiebeleid.twitter_title
+  - donaties.goal_description
   - error404.back_home
   - error404.message
   - error404.page_title
@@ -413,7 +414,7 @@ de_DE.json: 403 missing
 
 en_US.json: 0 missing
 
-fr_FR.json: 403 missing
+fr_FR.json: 404 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -529,6 +530,7 @@ fr_FR.json: 403 missing
   - cookiebeleid.toc_which
   - cookiebeleid.twitter_description
   - cookiebeleid.twitter_title
+  - donaties.goal_description
   - error404.back_home
   - error404.message
   - error404.page_title
@@ -943,6 +945,7 @@ cookiebeleid.toc_what: de_DE.json, fr_FR.json
 cookiebeleid.toc_which: de_DE.json, fr_FR.json
 cookiebeleid.twitter_description: de_DE.json, fr_FR.json
 cookiebeleid.twitter_title: de_DE.json, fr_FR.json
+donaties.goal_description: de_DE.json, fr_FR.json
 error404.back_home: de_DE.json, fr_FR.json
 error404.message: de_DE.json, fr_FR.json
 error404.page_title: de_DE.json, fr_FR.json
