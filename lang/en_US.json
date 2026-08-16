@@ -525,7 +525,8 @@
     "upload_sending": "Sending...",
     "upload_ok": "Photo submitted!",
     "upload_error": "An error occurred",
-    "upload_conn_error": "Connection error while submitting"
+    "upload_conn_error": "Connection error while submitting",
+    "reject_reason_admin": "Removed by administrator"
   },
   "privacy": {
     "page_title": "Privacy Policy - HulpdienstvoertuigenBenelux",
