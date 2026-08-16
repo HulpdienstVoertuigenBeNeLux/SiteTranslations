@@ -1,12 +1,12 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 709
-Source keys missing in at least one file: 400
+Total source keys: 711
+Source keys missing in at least one file: 402
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 400 missing
+de_DE.json: 402 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -389,6 +389,8 @@ de_DE.json: 400 missing
   - updates.page_title
   - updates.twitter_description
   - updates.twitter_title
+  - upload.discord_logout
+  - upload.submitting
   - voertuigen.details_title
   - voertuigen.hero_subtitle
   - voertuigen.hero_title
@@ -410,7 +412,7 @@ de_DE.json: 400 missing
 
 en_US.json: 0 missing
 
-fr_FR.json: 400 missing
+fr_FR.json: 402 missing
   - afkortingen.empty
   - afkortingen.hero_subtitle
   - afkortingen.hero_title
@@ -793,6 +795,8 @@ fr_FR.json: 400 missing
   - updates.page_title
   - updates.twitter_description
   - updates.twitter_title
+  - upload.discord_logout
+  - upload.submitting
   - voertuigen.details_title
   - voertuigen.hero_subtitle
   - voertuigen.hero_title
@@ -1204,6 +1208,8 @@ updates.og_title: de_DE.json, fr_FR.json
 updates.page_title: de_DE.json, fr_FR.json
 updates.twitter_description: de_DE.json, fr_FR.json
 updates.twitter_title: de_DE.json, fr_FR.json
+upload.discord_logout: de_DE.json, fr_FR.json
+upload.submitting: de_DE.json, fr_FR.json
 voertuigen.details_title: de_DE.json, fr_FR.json
 voertuigen.hero_subtitle: de_DE.json, fr_FR.json
 voertuigen.hero_title: de_DE.json, fr_FR.json
