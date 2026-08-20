@@ -299,7 +299,9 @@
     "label_ziekenhuisnaam": "Hospital Name",
     "label_naam": "Name",
     "label_roepnummer_kenteken": "Call Sign / License Plate",
-    "label_regio": "Region"
+    "label_regio": "Region",
+    "label_hulpdienst": "Emergency service",
+    "label_photo_view_location": "Location photo"
   },
   "upload": {
     "submitting": "Sending...",
