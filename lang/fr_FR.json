@@ -298,7 +298,10 @@
     "country_de": "Allemagne",
     "flag": "drapeau",
     "view_post": "Vers le poste",
-    "view_vehicle": "Voir le véhicule"
+    "view_vehicle": "Voir le véhicule",
+    "label_hulpdienst": "Service d'urgence",
+    "label_photo_view_location": "Photo de localisation",
+    "label_regio": "Région"
   },
   "upload": {
     "page_title": "Televerser des photos - HulpdienstvoertuigenBenelux",
@@ -342,7 +345,10 @@
     "file_selected": "1 fichier selectionne",
     "max_one_photo": "Vous pouvez ajouter au maximum 1 photo par vehicule",
     "discord_logout": "Se déconnecter",
-    "submitting": "Envoi..."
+    "submitting": "Envoi...",
+    "has_pending": "En attente d'approbation",
+    "has_pending_address": "Cette adresse est déjà en attente d'approbation. Choisissez une autre adresse.",
+    "has_pending_vehicle": "Ce véhicule est déjà en attente d'homologation. Choisissez un autre véhicule."
   },
   "afkortingen": {
     "empty": "Aucune abréviation disponible pour ce pays pour l'instant.",
@@ -762,5 +768,12 @@
     "twitter_title": "Véhicule - HulpdienstvoertuigenBenelux",
     "unknown_vehicle": "Véhicule inconnu",
     "view_post": "Voir le message"
+  },
+  "detail": {
+    "breadcrumb_home": "Maison",
+    "loading": "Chargement...",
+    "meta_description": "Informations détaillées sur les stations de service d'urgence et les véhicules. Numéro d'appel, plaque d'immatriculation, type et emplacement de la police, des pompiers, de l'ambulance et autres hulpdienstvoertuigen dans le Benelux.",
+    "og_description": "Informations détaillées sur les stations de service d'urgence et les véhicules dans le Benelux.",
+    "twitter_description": "Informations détaillées sur les stations de service d'urgence et les véhicules dans le Benelux."
   }
 }
