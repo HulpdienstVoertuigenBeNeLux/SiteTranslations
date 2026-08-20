@@ -298,7 +298,10 @@
     "country_de": "Deutschland",
     "flag": "Flagge",
     "view_post": "Zum Beitrag",
-    "view_vehicle": "Fahrzeug ansehen"
+    "view_vehicle": "Fahrzeug ansehen",
+    "label_hulpdienst": "Notdienst",
+    "label_photo_view_location": "Standortfoto",
+    "label_regio": "Region"
   },
   "upload": {
     "page_title": "Fotos hochladen - HulpdienstvoertuigenBenelux",
@@ -342,7 +345,10 @@
     "file_selected": "1 Datei ausgewählt",
     "max_one_photo": "Du kannst maximal 1 Foto pro Fahrzeug hinzufügen",
     "discord_logout": "Abmelden",
-    "submitting": "Senden..."
+    "submitting": "Senden...",
+    "has_pending": "Warten auf Genehmigung",
+    "has_pending_address": "Diese Adresse wartet bereits auf die Genehmigung. Wählen Sie eine andere Adresse.",
+    "has_pending_vehicle": "Dieses Fahrzeug wartet bereits auf die Genehmigung. Wählen Sie ein anderes Fahrzeug."
   },
   "afkortingen": {
     "empty": "Für dieses Land sind noch keine Abkürzungen verfügbar.",
@@ -762,5 +768,11 @@
     "twitter_title": "Fahrzeug – HulpdienstvoertuigenBenelux",
     "unknown_vehicle": "Unbekanntes Fahrzeug",
     "view_post": "Sehen Sie sich den Beitrag an"
+  },
+  "detail": {
+    "breadcrumb_home": "Heim",
+    "loading": "Laden...",
+    "og_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen im Benelux.",
+    "twitter_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen im Benelux."
   }
 }

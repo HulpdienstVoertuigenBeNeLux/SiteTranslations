@@ -298,7 +298,8 @@
     "label_beddenaantal": "Bed Count",
     "label_ziekenhuisnaam": "Hospital Name",
     "label_naam": "Name",
-    "label_roepnummer_kenteken": "Call Sign / License Plate"
+    "label_roepnummer_kenteken": "Call Sign / License Plate",
+    "label_regio": "Region"
   },
   "upload": {
     "submitting": "Sending...",
@@ -342,7 +343,10 @@
     "file_invalid_type": "Only JPG, PNG and WEBP files are allowed",
     "file_too_large": "is larger than 25MB",
     "file_selected": "1 file selected",
-    "max_one_photo": "You can add a maximum of 1 photo per vehicle"
+    "max_one_photo": "You can add a maximum of 1 photo per vehicle",
+    "has_pending": "Awaiting approval",
+    "has_pending_address": "This address is already awaiting approval. Choose a different address.",
+    "has_pending_vehicle": "This vehicle is already awaiting approval. Choose another vehicle."
   },
   "nav": {
     "home": "Home",
@@ -762,5 +766,12 @@
     "s7_p2": "We reserve the right to change this cookie policy. The most current version is always on this page. For important changes, we will post a notice on the website.",
     "last_updated": "Last updated: 14 August 2026",
     "back_to_top": "Back to top"
+  },
+  "detail": {
+    "breadcrumb_home": "Home",
+    "loading": "Loading...",
+    "meta_description": "Detailed information about emergency service stations and vehicles. Call number, license plate, type and location of police, fire brigade, ambulance and other hulpdienstvoertuigen in the Benelux.",
+    "og_description": "Detailed information about emergency service stations and vehicles in the Benelux.",
+    "twitter_description": "Detailed information about emergency service stations and vehicles in the Benelux."
   }
 }
