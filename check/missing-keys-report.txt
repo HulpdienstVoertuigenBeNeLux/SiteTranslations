@@ -1,16 +1,49 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 718
-Source keys missing in at least one file: 0
+Total source keys: 729
+Source keys missing in at least one file: 11
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 0 missing
+de_DE.json: 11 missing
+  - detail.breadcrumb_home
+  - detail.loading
+  - detail.meta_description
+  - detail.og_description
+  - detail.twitter_description
+  - list.label_hulpdienst
+  - list.label_photo_view_location
+  - list.label_regio
+  - upload.has_pending
+  - upload.has_pending_address
+  - upload.has_pending_vehicle
 
-en_US.json: 0 missing
+en_US.json: 11 missing
+  - detail.breadcrumb_home
+  - detail.loading
+  - detail.meta_description
+  - detail.og_description
+  - detail.twitter_description
+  - list.label_hulpdienst
+  - list.label_photo_view_location
+  - list.label_regio
+  - upload.has_pending
+  - upload.has_pending_address
+  - upload.has_pending_vehicle
 
-fr_FR.json: 0 missing
+fr_FR.json: 11 missing
+  - detail.breadcrumb_home
+  - detail.loading
+  - detail.meta_description
+  - detail.og_description
+  - detail.twitter_description
+  - list.label_hulpdienst
+  - list.label_photo_view_location
+  - list.label_regio
+  - upload.has_pending
+  - upload.has_pending_address
+  - upload.has_pending_vehicle
 
 Extra keys not in source
 ------------------------
@@ -22,4 +55,14 @@ fr_FR.json: 0 extra
 
 Missing files by key
 --------------------
-No missing keys detected. All files contain the same leaf keys.
+detail.breadcrumb_home: de_DE.json, en_US.json, fr_FR.json
+detail.loading: de_DE.json, en_US.json, fr_FR.json
+detail.meta_description: de_DE.json, en_US.json, fr_FR.json
+detail.og_description: de_DE.json, en_US.json, fr_FR.json
+detail.twitter_description: de_DE.json, en_US.json, fr_FR.json
+list.label_hulpdienst: de_DE.json, en_US.json, fr_FR.json
+list.label_photo_view_location: de_DE.json, en_US.json, fr_FR.json
+list.label_regio: de_DE.json, en_US.json, fr_FR.json
+upload.has_pending: de_DE.json, en_US.json, fr_FR.json
+upload.has_pending_address: de_DE.json, en_US.json, fr_FR.json
+upload.has_pending_vehicle: de_DE.json, en_US.json, fr_FR.json
