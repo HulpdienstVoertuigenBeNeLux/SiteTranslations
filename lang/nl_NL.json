@@ -298,7 +298,10 @@
     "label_beddenaantal": "Beddenaantal",
     "label_ziekenhuisnaam": "Ziekenhuisnaam",
     "label_naam": "Naam",
-    "label_roepnummer_kenteken": "Roepnummer / Kenteken"
+    "label_roepnummer_kenteken": "Roepnummer / Kenteken",
+    "label_hulpdienst": "Hulpdienst",
+    "label_regio": "Regio",
+    "label_photo_view_location": "Locatie foto"
   },
   "upload": {
     "submitting": "Bezig met verzenden...",
@@ -342,7 +345,10 @@
     "file_invalid_type": "Alleen JPG, PNG en WEBP bestanden zijn toegestaan",
     "file_too_large": "is groter dan 25MB",
     "file_selected": "1 bestand geselecteerd",
-    "max_one_photo": "Je kunt maximaal 1 foto per voertuig toevoegen"
+    "max_one_photo": "Je kunt maximaal 1 foto per voertuig toevoegen",
+    "has_pending": "In afwachting van goedkeuring",
+    "has_pending_vehicle": "Dit voertuig wacht al op goedkeuring. Kies een ander voertuig.",
+    "has_pending_address": "Dit adres wacht al op goedkeuring. Kies een ander adres."
   },
   "nav": {
     "home": "Home",
@@ -463,6 +469,13 @@
     "map_title": "Locatie op de kaart",
     "map_full": "Bekijk volledige kaart",
     "invalid_url": "Ongeldige link"
+  },
+  "detail": {
+    "meta_description": "Gedetailleerde informatie over hulpdienstposten en -voertuigen. Roepnummer, kenteken, type en locatie van politie, brandweer, ambulance en andere hulpdienstvoertuigen in de Benelux.",
+    "og_description": "Gedetailleerde informatie over hulpdienstposten en -voertuigen in de Benelux.",
+    "twitter_description": "Gedetailleerde informatie over hulpdienstposten en -voertuigen in de Benelux.",
+    "breadcrumb_home": "Home",
+    "loading": "Laden..."
   },
   "error404": {
     "page_title": "404 - Pagina niet gevonden - HulpdienstvoertuigenBenelux",
