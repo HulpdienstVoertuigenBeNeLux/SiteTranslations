@@ -510,7 +510,8 @@
     "cancel": "Stornieren",
     "confirm": "Zur Bestätigung",
     "confirm_title": "Zur Bestätigung",
-    "vote_discord": "Abstimmung über Discord"
+    "vote_discord": "Abstimmung über Discord",
+    "view_profile": "Profil ansehen"
   },
   "nav": {
     "abbreviations": "Abkürzungen",
@@ -747,7 +748,11 @@
     "upload_zone_sub": "JPG, PNG oder WEBP – max. 25 MB",
     "user_default": "Benutzer",
     "user_not_found": "Benutzer nicht gefunden",
-    "vehicle_default": "Fahrzeug"
+    "vehicle_default": "Fahrzeug",
+    "settings_copyright_label": "Copyright-Name",
+    "socials_desc": "Geben Sie Ihren Benutzernamen ein und wählen Sie, ob Sie ihn in Ihrem Profil sichtbar machen möchten.",
+    "socials_title": "Soziale Medien",
+    "socials_visible": "Sichtbar"
   },
   "voertuigen": {
     "details_title": "Fahrzeuginformationen",

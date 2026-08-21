@@ -510,7 +510,8 @@
     "cancel": "Annuler",
     "confirm": "Pour confirmer",
     "confirm_title": "Pour confirmer",
-    "vote_discord": "Votez sur Discord"
+    "vote_discord": "Votez sur Discord",
+    "view_profile": "Voir le profil"
   },
   "nav": {
     "abbreviations": "Abréviations",
@@ -747,7 +748,11 @@
     "upload_zone_sub": "JPG, PNG ou WEBP - Max 25 Mo",
     "user_default": "Utilisateur",
     "user_not_found": "Utilisateur introuvable",
-    "vehicle_default": "Véhicule"
+    "vehicle_default": "Véhicule",
+    "settings_copyright_label": "Nom du droit d'auteur",
+    "socials_desc": "Saisissez votre nom d'utilisateur et choisissez si vous souhaitez le rendre visible sur votre profil.",
+    "socials_title": "Réseaux sociaux",
+    "socials_visible": "Visible"
   },
   "voertuigen": {
     "details_title": "Informations sur le véhicule",
