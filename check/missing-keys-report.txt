@@ -1,30 +1,39 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 729
-Source keys missing in at least one file: 0
+Total source keys: 734
+Source keys missing in at least one file: 5
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 0 missing
-
-en_US.json: 0 missing
-
-fr_FR.json: 0 missing
-
-Extra keys not in source
-------------------------
-de_DE.json: 0 extra
-
-en_US.json: 5 extra
+de_DE.json: 5 missing
   - modal.view_profile
   - profile.settings_copyright_label
   - profile.socials_desc
   - profile.socials_title
   - profile.socials_visible
 
+en_US.json: 0 missing
+
+fr_FR.json: 5 missing
+  - modal.view_profile
+  - profile.settings_copyright_label
+  - profile.socials_desc
+  - profile.socials_title
+  - profile.socials_visible
+
+Extra keys not in source
+------------------------
+de_DE.json: 0 extra
+
+en_US.json: 0 extra
+
 fr_FR.json: 0 extra
 
 Missing files by key
 --------------------
-No missing keys detected. All files contain the same leaf keys.
+modal.view_profile: de_DE.json, fr_FR.json
+profile.settings_copyright_label: de_DE.json, fr_FR.json
+profile.socials_desc: de_DE.json, fr_FR.json
+profile.socials_title: de_DE.json, fr_FR.json
+profile.socials_visible: de_DE.json, fr_FR.json
