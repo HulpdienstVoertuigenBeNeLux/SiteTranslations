@@ -381,6 +381,7 @@
   },
   "modal": {
     "vote_discord": "Stem op Discord",
+    "view_profile": "Bekijk profiel",
     "confirm_title": "Bevestigen",
     "confirm": "Bevestigen",
     "cancel": "Annuleer"
@@ -502,7 +503,7 @@
     "session_expired_title": "Sessie verlopen",
     "session_expired_text": "Je sessie is verlopen. Log opnieuw in.",
     "login_again": "Opnieuw inloggen",
-    "settings_title": "Copyright naam",
+    "settings_title": "Instellingen",
     "settings_title_attr": "Instellingen",
     "settings_desc": "Deze naam wordt automatisch ingevuld bij het insturen van foto's en weergegeven als watermerk.",
     "settings_placeholder": "Uw naam voor op de foto",
@@ -545,7 +546,11 @@
     "upload_ok": "Foto ingestuurd!",
     "upload_error": "Er is een fout opgetreden",
     "upload_conn_error": "Verbindingsfout bij insturen",
-    "reject_reason_admin": "Verwijderd door beheerder"
+    "reject_reason_admin": "Verwijderd door beheerder",
+    "socials_title": "Sociale media",
+    "socials_desc": "Vul je gebruikersnaam in en kies of je deze zichtbaar wilt maken op je profiel.",
+    "socials_visible": "Zichtbaar",
+    "settings_copyright_label": "Copyright naam"
   },
   "privacy": {
     "page_title": "Privacybeleid - HulpdienstvoertuigenBenelux",
