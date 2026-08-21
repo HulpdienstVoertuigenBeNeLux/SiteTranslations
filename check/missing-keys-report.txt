@@ -16,7 +16,12 @@ Extra keys not in source
 ------------------------
 de_DE.json: 0 extra
 
-en_US.json: 0 extra
+en_US.json: 5 extra
+  - modal.view_profile
+  - profile.settings_copyright_label
+  - profile.socials_desc
+  - profile.socials_title
+  - profile.socials_visible
 
 fr_FR.json: 0 extra
 
