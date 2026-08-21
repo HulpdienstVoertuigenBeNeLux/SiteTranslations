@@ -117,7 +117,7 @@
       "user_message_label": "Your message",
       "user_info_title": "Important information",
       "user_info_ticket": "Keep your ticket number {{ticket}} handy for reference",
-      "user_info_response": "We aim to respond within 2 business days",
+      "user_info_response": "We aim to respond within 5 business days",
       "user_regards": "Kind regards,",
       "user_team": "HulpdienstvoertuigenBenelux Team",
       "user_footer_text": "This is an automatically generated email. Please do not reply directly to this message.",
@@ -299,9 +299,9 @@
     "label_ziekenhuisnaam": "Hospital Name",
     "label_naam": "Name",
     "label_roepnummer_kenteken": "Call Sign / License Plate",
+    "label_hulpdienst": "Emergency Service",
     "label_regio": "Region",
-    "label_hulpdienst": "Emergency service",
-    "label_photo_view_location": "Location photo"
+    "label_photo_view_location": "Photo location"
   },
   "upload": {
     "submitting": "Sending...",
@@ -346,9 +346,9 @@
     "file_too_large": "is larger than 25MB",
     "file_selected": "1 file selected",
     "max_one_photo": "You can add a maximum of 1 photo per vehicle",
-    "has_pending": "Awaiting approval",
-    "has_pending_address": "This address is already awaiting approval. Choose a different address.",
-    "has_pending_vehicle": "This vehicle is already awaiting approval. Choose another vehicle."
+    "has_pending": "Pending approval",
+    "has_pending_vehicle": "This vehicle is already pending approval. Choose another vehicle.",
+    "has_pending_address": "This address is already pending approval. Choose another address."
   },
   "nav": {
     "home": "Home",
@@ -469,6 +469,13 @@
     "map_title": "Location on the map",
     "map_full": "View full map",
     "invalid_url": "Invalid link"
+  },
+  "detail": {
+    "meta_description": "Detailed information about emergency service posts and vehicles. Call sign, license plate, type and location of police, fire, ambulance and other emergency vehicles in the Benelux.",
+    "og_description": "Detailed information about emergency service posts and vehicles in the Benelux.",
+    "twitter_description": "Detailed information about emergency service posts and vehicles in the Benelux.",
+    "breadcrumb_home": "Home",
+    "loading": "Loading..."
   },
   "error404": {
     "page_title": "404 - Page not found - HulpdienstvoertuigenBenelux",
@@ -768,12 +775,5 @@
     "s7_p2": "We reserve the right to change this cookie policy. The most current version is always on this page. For important changes, we will post a notice on the website.",
     "last_updated": "Last updated: 14 August 2026",
     "back_to_top": "Back to top"
-  },
-  "detail": {
-    "breadcrumb_home": "Home",
-    "loading": "Loading...",
-    "meta_description": "Detailed information about emergency service stations and vehicles. Call number, license plate, type and location of police, fire brigade, ambulance and other hulpdienstvoertuigen in the Benelux.",
-    "og_description": "Detailed information about emergency service stations and vehicles in the Benelux.",
-    "twitter_description": "Detailed information about emergency service stations and vehicles in the Benelux."
   }
 }
