@@ -383,7 +383,12 @@
     "profile": "Profile",
     "logout": "Log out",
     "login": "Log in",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "map": "Map",
+    "list": "List",
+    "explore": "Explore",
+    "all_photos": "All photos",
+    "photographers": "Our photographers"
   },
   "footer": {
     "description": "The most complete overview of emergency vehicles in the Benelux. Discover, compare and learn about the different vehicles that are deployed for our safety.",
@@ -393,7 +398,8 @@
     "contact_form": "Contact form",
     "all_rights": "All rights reserved.",
     "privacy": "Privacy Policy",
-    "cookies": "Cookie Policy"
+    "cookies": "Cookie Policy",
+    "explore": "Explore"
   },
   "modal": {
     "vote_discord": "Vote on Discord",
