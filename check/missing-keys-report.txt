@@ -1,12 +1,12 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 790
-Source keys missing in at least one file: 49
+Total source keys: 794
+Source keys missing in at least one file: 53
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 49 missing
+de_DE.json: 53 missing
   - afkortingen.label_alt
   - afkortingen.label_criteria
   - afkortingen.label_opmerkingen
@@ -51,6 +51,10 @@ de_DE.json: 49 missing
   - home.map_button
   - home.map_desc
   - home.map_title
+  - kaart.no_vehicles_for_filter
+  - kaart.zoom_in
+  - kaart.zoom_out
+  - list.filter_all_countries
   - nav.all_photos
   - nav.explore
   - nav.list
@@ -88,7 +92,7 @@ en_US.json: 29 missing
   - nav.map
   - nav.photographers
 
-fr_FR.json: 49 missing
+fr_FR.json: 53 missing
   - afkortingen.label_alt
   - afkortingen.label_criteria
   - afkortingen.label_opmerkingen
@@ -133,6 +137,10 @@ fr_FR.json: 49 missing
   - home.map_button
   - home.map_desc
   - home.map_title
+  - kaart.no_vehicles_for_filter
+  - kaart.zoom_in
+  - kaart.zoom_out
+  - list.filter_all_countries
   - nav.all_photos
   - nav.explore
   - nav.list
@@ -199,6 +207,10 @@ home.map_aria: de_DE.json, fr_FR.json
 home.map_button: de_DE.json, fr_FR.json
 home.map_desc: de_DE.json, fr_FR.json
 home.map_title: de_DE.json, fr_FR.json
+kaart.no_vehicles_for_filter: de_DE.json, fr_FR.json
+kaart.zoom_in: de_DE.json, fr_FR.json
+kaart.zoom_out: de_DE.json, fr_FR.json
+list.filter_all_countries: de_DE.json, fr_FR.json
 nav.all_photos: de_DE.json, en_US.json, fr_FR.json
 nav.explore: de_DE.json, en_US.json, fr_FR.json
 nav.list: de_DE.json, en_US.json, fr_FR.json
