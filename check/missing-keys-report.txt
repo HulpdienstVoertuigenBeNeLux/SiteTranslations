@@ -1,16 +1,131 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 741
-Source keys missing in at least one file: 0
+Total source keys: 784
+Source keys missing in at least one file: 43
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 0 missing
+de_DE.json: 43 missing
+  - footer.explore
+  - fotografen.empty
+  - fotografen.error
+  - fotografen.hero_subtitle
+  - fotografen.hero_title
+  - fotografen.loading
+  - fotografen.page_title
+  - fotografen.photos
+  - fotos.all_photographers
+  - fotos.all_services
+  - fotos.empty
+  - fotos.error
+  - fotos.hero_subtitle
+  - fotos.hero_title
+  - fotos.loading
+  - fotos.of
+  - fotos.page
+  - fotos.page_title
+  - fotos.photos
+  - fotos.reset
+  - fotos.sort_az
+  - fotos.sort_newest
+  - fotos.sort_oldest
+  - fotos.sort_za
+  - fotowedstrijd.rules_button
+  - fotowedstrijd.vote_button
+  - fotowedstrijd.vote_text
+  - home.contest_button
+  - home.contest_desc
+  - home.contest_image_alt
+  - home.contest_title
+  - home.contest_unknown
+  - home.contest_winner
+  - home.contest_winner_label
+  - home.map_aria
+  - home.map_button
+  - home.map_desc
+  - home.map_title
+  - nav.all_photos
+  - nav.explore
+  - nav.list
+  - nav.map
+  - nav.photographers
 
-en_US.json: 0 missing
+en_US.json: 29 missing
+  - footer.explore
+  - fotografen.empty
+  - fotografen.error
+  - fotografen.hero_subtitle
+  - fotografen.hero_title
+  - fotografen.loading
+  - fotografen.page_title
+  - fotografen.photos
+  - fotos.all_photographers
+  - fotos.all_services
+  - fotos.empty
+  - fotos.error
+  - fotos.hero_subtitle
+  - fotos.hero_title
+  - fotos.loading
+  - fotos.of
+  - fotos.page
+  - fotos.page_title
+  - fotos.photos
+  - fotos.reset
+  - fotos.sort_az
+  - fotos.sort_newest
+  - fotos.sort_oldest
+  - fotos.sort_za
+  - nav.all_photos
+  - nav.explore
+  - nav.list
+  - nav.map
+  - nav.photographers
 
-fr_FR.json: 0 missing
+fr_FR.json: 43 missing
+  - footer.explore
+  - fotografen.empty
+  - fotografen.error
+  - fotografen.hero_subtitle
+  - fotografen.hero_title
+  - fotografen.loading
+  - fotografen.page_title
+  - fotografen.photos
+  - fotos.all_photographers
+  - fotos.all_services
+  - fotos.empty
+  - fotos.error
+  - fotos.hero_subtitle
+  - fotos.hero_title
+  - fotos.loading
+  - fotos.of
+  - fotos.page
+  - fotos.page_title
+  - fotos.photos
+  - fotos.reset
+  - fotos.sort_az
+  - fotos.sort_newest
+  - fotos.sort_oldest
+  - fotos.sort_za
+  - fotowedstrijd.rules_button
+  - fotowedstrijd.vote_button
+  - fotowedstrijd.vote_text
+  - home.contest_button
+  - home.contest_desc
+  - home.contest_image_alt
+  - home.contest_title
+  - home.contest_unknown
+  - home.contest_winner
+  - home.contest_winner_label
+  - home.map_aria
+  - home.map_button
+  - home.map_desc
+  - home.map_title
+  - nav.all_photos
+  - nav.explore
+  - nav.list
+  - nav.map
+  - nav.photographers
 
 Extra keys not in source
 ------------------------
@@ -28,4 +143,46 @@ fr_FR.json: 3 extra
 
 Missing files by key
 --------------------
-No missing keys detected. All files contain the same leaf keys.
+footer.explore: de_DE.json, en_US.json, fr_FR.json
+fotografen.empty: de_DE.json, en_US.json, fr_FR.json
+fotografen.error: de_DE.json, en_US.json, fr_FR.json
+fotografen.hero_subtitle: de_DE.json, en_US.json, fr_FR.json
+fotografen.hero_title: de_DE.json, en_US.json, fr_FR.json
+fotografen.loading: de_DE.json, en_US.json, fr_FR.json
+fotografen.page_title: de_DE.json, en_US.json, fr_FR.json
+fotografen.photos: de_DE.json, en_US.json, fr_FR.json
+fotos.all_photographers: de_DE.json, en_US.json, fr_FR.json
+fotos.all_services: de_DE.json, en_US.json, fr_FR.json
+fotos.empty: de_DE.json, en_US.json, fr_FR.json
+fotos.error: de_DE.json, en_US.json, fr_FR.json
+fotos.hero_subtitle: de_DE.json, en_US.json, fr_FR.json
+fotos.hero_title: de_DE.json, en_US.json, fr_FR.json
+fotos.loading: de_DE.json, en_US.json, fr_FR.json
+fotos.of: de_DE.json, en_US.json, fr_FR.json
+fotos.page: de_DE.json, en_US.json, fr_FR.json
+fotos.page_title: de_DE.json, en_US.json, fr_FR.json
+fotos.photos: de_DE.json, en_US.json, fr_FR.json
+fotos.reset: de_DE.json, en_US.json, fr_FR.json
+fotos.sort_az: de_DE.json, en_US.json, fr_FR.json
+fotos.sort_newest: de_DE.json, en_US.json, fr_FR.json
+fotos.sort_oldest: de_DE.json, en_US.json, fr_FR.json
+fotos.sort_za: de_DE.json, en_US.json, fr_FR.json
+fotowedstrijd.rules_button: de_DE.json, fr_FR.json
+fotowedstrijd.vote_button: de_DE.json, fr_FR.json
+fotowedstrijd.vote_text: de_DE.json, fr_FR.json
+home.contest_button: de_DE.json, fr_FR.json
+home.contest_desc: de_DE.json, fr_FR.json
+home.contest_image_alt: de_DE.json, fr_FR.json
+home.contest_title: de_DE.json, fr_FR.json
+home.contest_unknown: de_DE.json, fr_FR.json
+home.contest_winner: de_DE.json, fr_FR.json
+home.contest_winner_label: de_DE.json, fr_FR.json
+home.map_aria: de_DE.json, fr_FR.json
+home.map_button: de_DE.json, fr_FR.json
+home.map_desc: de_DE.json, fr_FR.json
+home.map_title: de_DE.json, fr_FR.json
+nav.all_photos: de_DE.json, en_US.json, fr_FR.json
+nav.explore: de_DE.json, en_US.json, fr_FR.json
+nav.list: de_DE.json, en_US.json, fr_FR.json
+nav.map: de_DE.json, en_US.json, fr_FR.json
+nav.photographers: de_DE.json, en_US.json, fr_FR.json
