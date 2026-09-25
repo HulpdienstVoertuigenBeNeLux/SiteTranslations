@@ -1,12 +1,18 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 784
-Source keys missing in at least one file: 43
+Total source keys: 790
+Source keys missing in at least one file: 49
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 43 missing
+de_DE.json: 49 missing
+  - afkortingen.label_alt
+  - afkortingen.label_criteria
+  - afkortingen.label_opmerkingen
+  - afkortingen.label_primair
+  - afkortingen.label_serie
+  - afkortingen.view_more
   - footer.explore
   - fotografen.empty
   - fotografen.error
@@ -82,7 +88,13 @@ en_US.json: 29 missing
   - nav.map
   - nav.photographers
 
-fr_FR.json: 43 missing
+fr_FR.json: 49 missing
+  - afkortingen.label_alt
+  - afkortingen.label_criteria
+  - afkortingen.label_opmerkingen
+  - afkortingen.label_primair
+  - afkortingen.label_serie
+  - afkortingen.view_more
   - footer.explore
   - fotografen.empty
   - fotografen.error
@@ -143,6 +155,12 @@ fr_FR.json: 3 extra
 
 Missing files by key
 --------------------
+afkortingen.label_alt: de_DE.json, fr_FR.json
+afkortingen.label_criteria: de_DE.json, fr_FR.json
+afkortingen.label_opmerkingen: de_DE.json, fr_FR.json
+afkortingen.label_primair: de_DE.json, fr_FR.json
+afkortingen.label_serie: de_DE.json, fr_FR.json
+afkortingen.view_more: de_DE.json, fr_FR.json
 footer.explore: de_DE.json, en_US.json, fr_FR.json
 fotografen.empty: de_DE.json, en_US.json, fr_FR.json
 fotografen.error: de_DE.json, en_US.json, fr_FR.json
