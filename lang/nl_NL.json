@@ -213,7 +213,7 @@
     "og_image_alt": "Hulpdienstvoertuigen BeNeLux Logo",
     "twitter_title": "HulpdienstvoertuigenBenelux - Compleet overzicht van hulpdiensten",
     "twitter_description": "De meest complete database van hulpdienstvoertuigen in de Benelux. Ontdek duizenden voertuigen uit Nederland, België en Luxemburg.",
-    "hero_title": "Hulpdienstvoertuigen",
+    "hero_title": "Hulpdienstvoertuigen BeNeLux",
     "hero_subtitle": "De meest complete en actuele informatie over hulpdienstvoertuigen",
     "logo_alt": "Hulpdienstvoertuigen BeNeLux Logo",
     "region_nl": "Nederland",
@@ -439,7 +439,13 @@
     "search_placeholder": "Zoek een afkorting of omschrijving",
     "region_nl": "Nederland",
     "region_be": "België",
-    "region_lux": "Luxemburg"
+    "region_lux": "Luxemburg",
+    "label_serie": "Roepnummerserie",
+    "label_criteria": "Criteria",
+    "label_primair": "Primair / rol",
+    "label_alt": "Alternatief",
+    "label_opmerkingen": "Opmerkingen",
+    "view_more": "Bekijk meer"
   },
   "kaart": {
     "page_title": "Kaart - HulpdienstvoertuigenBenelux",
