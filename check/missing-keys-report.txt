@@ -1,12 +1,12 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 796
-Source keys missing in at least one file: 55
+Total source keys: 797
+Source keys missing in at least one file: 56
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 55 missing
+de_DE.json: 56 missing
   - afkortingen.label_alt
   - afkortingen.label_criteria
   - afkortingen.label_opmerkingen
@@ -21,6 +21,7 @@ de_DE.json: 55 missing
   - fotografen.loading
   - fotografen.page_title
   - fotografen.photos
+  - fotografen.unknown
   - fotos.all_photographers
   - fotos.all_services
   - fotos.empty
@@ -63,14 +64,7 @@ de_DE.json: 55 missing
   - nav.map
   - nav.photographers
 
-en_US.json: 23 missing
-  - fotografen.empty
-  - fotografen.error
-  - fotografen.hero_subtitle
-  - fotografen.hero_title
-  - fotografen.loading
-  - fotografen.page_title
-  - fotografen.photos
+en_US.json: 16 missing
   - fotos.all_photographers
   - fotos.all_services
   - fotos.empty
@@ -88,7 +82,7 @@ en_US.json: 23 missing
   - fotos.sort_oldest
   - fotos.sort_za
 
-fr_FR.json: 55 missing
+fr_FR.json: 56 missing
   - afkortingen.label_alt
   - afkortingen.label_criteria
   - afkortingen.label_opmerkingen
@@ -103,6 +97,7 @@ fr_FR.json: 55 missing
   - fotografen.loading
   - fotografen.page_title
   - fotografen.photos
+  - fotografen.unknown
   - fotos.all_photographers
   - fotos.all_services
   - fotos.empty
@@ -168,13 +163,14 @@ afkortingen.label_primair: de_DE.json, fr_FR.json
 afkortingen.label_serie: de_DE.json, fr_FR.json
 afkortingen.view_more: de_DE.json, fr_FR.json
 footer.explore: de_DE.json, fr_FR.json
-fotografen.empty: de_DE.json, en_US.json, fr_FR.json
-fotografen.error: de_DE.json, en_US.json, fr_FR.json
-fotografen.hero_subtitle: de_DE.json, en_US.json, fr_FR.json
-fotografen.hero_title: de_DE.json, en_US.json, fr_FR.json
-fotografen.loading: de_DE.json, en_US.json, fr_FR.json
-fotografen.page_title: de_DE.json, en_US.json, fr_FR.json
-fotografen.photos: de_DE.json, en_US.json, fr_FR.json
+fotografen.empty: de_DE.json, fr_FR.json
+fotografen.error: de_DE.json, fr_FR.json
+fotografen.hero_subtitle: de_DE.json, fr_FR.json
+fotografen.hero_title: de_DE.json, fr_FR.json
+fotografen.loading: de_DE.json, fr_FR.json
+fotografen.page_title: de_DE.json, fr_FR.json
+fotografen.photos: de_DE.json, fr_FR.json
+fotografen.unknown: de_DE.json, fr_FR.json
 fotos.all_photographers: de_DE.json, en_US.json, fr_FR.json
 fotos.all_services: de_DE.json, en_US.json, fr_FR.json
 fotos.empty: de_DE.json, en_US.json, fr_FR.json
