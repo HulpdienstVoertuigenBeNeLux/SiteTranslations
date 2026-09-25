@@ -459,7 +459,9 @@
     "hide_filters": "Filters verbergen",
     "no_vehicles_for_filter": "Geen voertuigen voor het actieve filter.",
     "zoom_in": "Inzoomen",
-    "zoom_out": "Uitzoomen"
+    "zoom_out": "Uitzoomen",
+    "theme_classic": "Classic",
+    "theme_satellite": "Satelliet"
   },
   "post": {
     "page_title": "Post - HulpdienstvoertuigenBenelux",
