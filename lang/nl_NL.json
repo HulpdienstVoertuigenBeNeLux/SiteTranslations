@@ -827,7 +827,8 @@
     "loading": "Fotografen laden...",
     "empty": "Nog geen fotografen gevonden.",
     "error": "Fotografen konden niet geladen worden.",
-    "photos": "foto's"
+    "photos": "foto's",
+    "unknown": "Onbekend"
   },
   "fotos": {
     "page_title": "Alle foto's - HulpdienstvoertuigenBenelux",
