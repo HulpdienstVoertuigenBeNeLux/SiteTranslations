@@ -39,9 +39,9 @@
   "over_ons": {
     "hero_title": "About Us",
     "hero_subtitle": "Discover the story behind Hulpdienstvoertuigen BeNeLux",
-    "about_p1": "This website was created because there was no central collection point for all emergency services vehicles from Belgium and the Netherlands. The initiators are several players of <a href=\"https://www.meldkamerspel.com/\" target=\"_blank\" class=\"about-link\">Meldkamerspel</a>. They noticed it was difficult to find the right vehicles, correct call signs, and exact locations.",
-    "about_p2": "About two years ago, we started collecting vehicle data and locations from approximately 16 different disciplines. This was quite a task. All found information is processed into an overview. The overview is a living project, meaning we regularly add new data and update existing information.",
-    "about_p3": "Our goal is to create the most complete and up-to-date database of emergency services vehicles in the Benelux, accessible to anyone interested in emergency services, from hobbyists to professionals.",
+    "about_p1": "This website was created because there was no central database for all emergency service vehicles from the BeNeLux. The initiators are a few players of the <a href=\"https://www.meldkamerspel.com/\" target=\"_blank\" class=\"about-link\">Meldkamerspel</a> dispatch game. They found it difficult to find the right vehicles, correct call signs and exact locations.",
+    "about_p2": "In 2024 we started collecting vehicle data and locations from around 16 different disciplines. All information found is processed into an overview. This is a living project, meaning we regularly add new data and update existing information.",
+    "about_p3": "Our goal is to create the most complete and up-to-date database of information and photos about emergency service vehicles in the Benelux, accessible to everyone interested in emergency services, from hobbyists to professionals.",
     "team_title": "Our Team",
     "role_owner": "Owner & Database Filler",
     "role_database": "Database Filler",
@@ -166,7 +166,7 @@
     "logo_alt": "Hulpdienstvoertuigen BeNeLux Logo",
     "no_contest_title": "No active photo contest",
     "no_contest_text": "There is currently no photo contest active. Check back later!",
-    "contest_description": "Upload your best photo and win a prize. At the end of the contest, all votes cast in the Discord server will be counted. The photos with the most votes make it to the podium. Participants may only submit one photo, so choose wisely!",
+    "contest_description": "Upload your best photo on this theme. The community picks the winner through a vote in Discord. One entry per participant!",
     "check_discord": "Check <a href=\"https://discord.gg/hqHFBYWJBH\" target=\"_blank\" style=\"color:var(--accent-color);font-weight:600;text-decoration:none;\">Discord</a> for the rules",
     "theme_label": "Theme:",
     "end_date": "End date",
@@ -200,7 +200,10 @@
     "file_invalid_type": "Only JPG, PNG and WEBP files are allowed",
     "file_too_large": "is larger than 25MB",
     "file_selected": "1 file selected",
-    "login_required_error": "You need to be logged in."
+    "login_required_error": "You need to be logged in.",
+    "vote_text": "Voting happens in our Discord server.",
+    "vote_button": "Vote in Discord",
+    "rules_button": "Rules in Discord"
   },
   "home": {
     "meta_description": "The most complete database of emergency service vehicles in the Benelux. Discover thousands of police cars, fire trucks, ambulances, rescue boats and more from the Netherlands, Belgium and Luxembourg. Up-to-date, complete and free to consult. Search by region, service or license plate.",
@@ -253,7 +256,18 @@
     "category_kmar_desc": "Provides border security and crime prevention on and around military areas",
     "category_penitentiaire_inrichtingen_desc": "Cell complex for detainees",
     "category_douane_desc": "Guards the Dutch borders by checking persons and goods",
-    "category_rode_kruis_desc": "The Red Cross provides worldwide aid to anyone in need"
+    "category_rode_kruis_desc": "The Red Cross provides worldwide aid to anyone in need",
+    "map_title": "View everything on the map",
+    "map_desc": "All posts and vehicles of the Benelux on one interactive map. Search, filter and discover what is near you.",
+    "map_button": "Open the map",
+    "contest_title": "Photo Contest",
+    "contest_winner": "Winner",
+    "contest_desc": "Are you joining the next photo contest too? Everyone can participate.",
+    "contest_button": "View photo contest",
+    "contest_image_alt": "Winning photo",
+    "contest_unknown": "Unknown",
+    "contest_winner_label": "Winner: ",
+    "map_aria": "Open the map"
   },
   "list": {
     "page_title": "Overviews - HulpdienstvoertuigenBenelux",
