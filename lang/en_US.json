@@ -819,5 +819,15 @@
     "s7_p2": "We reserve the right to change this cookie policy. The most current version is always on this page. For important changes, we will post a notice on the website.",
     "last_updated": "Last updated: 4 September 2026",
     "back_to_top": "Back to top"
+  },
+  "fotografen": {
+    "page_title": "Our photographers - HulpdienstvoertuigenBenelux",
+    "hero_title": "Our photographers",
+    "hero_subtitle": "All photographers who have contributed photos to this website, sorted by number of approved photos.",
+    "loading": "Loading photographers...",
+    "empty": "No photographers found yet.",
+    "error": "Photographers could not be loaded.",
+    "photos": "photos",
+    "unknown": "Unknown"
   }
 }
