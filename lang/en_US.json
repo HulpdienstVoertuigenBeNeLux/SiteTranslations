@@ -213,7 +213,7 @@
     "og_image_alt": "Hulpdienstvoertuigen BeNeLux Logo",
     "twitter_title": "HulpdienstvoertuigenBenelux - Complete overview of emergency services",
     "twitter_description": "The most complete database of emergency service vehicles in the Benelux. Discover thousands of vehicles from the Netherlands, Belgium and Luxembourg.",
-    "hero_title": "Emergency Service Vehicles",
+    "hero_title": "Hulpdienstvoertuigen BeNeLux",
     "hero_subtitle": "The most complete and up-to-date information about emergency service vehicles",
     "logo_alt": "Hulpdienstvoertuigen BeNeLux Logo",
     "region_nl": "Netherlands",
@@ -433,7 +433,13 @@
     "search_placeholder": "Search for an abbreviation or description",
     "region_nl": "Netherlands",
     "region_be": "Belgium",
-    "region_lux": "Luxembourg"
+    "region_lux": "Luxembourg",
+    "label_serie": "Call sign series",
+    "label_criteria": "Criteria",
+    "label_primair": "Primary / role",
+    "label_alt": "Alternative",
+    "label_opmerkingen": "Remarks",
+    "view_more": "View more"
   },
   "kaart": {
     "page_title": "Map - HulpdienstvoertuigenBenelux",
