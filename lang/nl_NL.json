@@ -316,7 +316,8 @@
     "label_roepnummer_kenteken": "Roepnummer / Kenteken",
     "label_hulpdienst": "Hulpdienst",
     "label_regio": "Regio",
-    "label_photo_view_location": "Locatie foto"
+    "label_photo_view_location": "Locatie foto",
+    "filter_all_countries": "Alle Landen"
   },
   "upload": {
     "submitting": "Bezig met verzenden...",
@@ -455,7 +456,10 @@
     "twitter_title": "Kaart - HulpdienstvoertuigenBenelux",
     "twitter_description": "Bekijk alle hulpdienstvoertuigen uit Nederland, België en Luxemburg op de interactieve kaart.",
     "show_filters": "Filters tonen",
-    "hide_filters": "Filters verbergen"
+    "hide_filters": "Filters verbergen",
+    "no_vehicles_for_filter": "Geen voertuigen voor het actieve filter.",
+    "zoom_in": "Inzoomen",
+    "zoom_out": "Uitzoomen"
   },
   "post": {
     "page_title": "Post - HulpdienstvoertuigenBenelux",
