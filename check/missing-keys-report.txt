@@ -63,8 +63,7 @@ de_DE.json: 55 missing
   - nav.map
   - nav.photographers
 
-en_US.json: 29 missing
-  - footer.explore
+en_US.json: 23 missing
   - fotografen.empty
   - fotografen.error
   - fotografen.hero_subtitle
@@ -88,11 +87,6 @@ en_US.json: 29 missing
   - fotos.sort_newest
   - fotos.sort_oldest
   - fotos.sort_za
-  - nav.all_photos
-  - nav.explore
-  - nav.list
-  - nav.map
-  - nav.photographers
 
 fr_FR.json: 55 missing
   - afkortingen.label_alt
@@ -173,7 +167,7 @@ afkortingen.label_opmerkingen: de_DE.json, fr_FR.json
 afkortingen.label_primair: de_DE.json, fr_FR.json
 afkortingen.label_serie: de_DE.json, fr_FR.json
 afkortingen.view_more: de_DE.json, fr_FR.json
-footer.explore: de_DE.json, en_US.json, fr_FR.json
+footer.explore: de_DE.json, fr_FR.json
 fotografen.empty: de_DE.json, en_US.json, fr_FR.json
 fotografen.error: de_DE.json, en_US.json, fr_FR.json
 fotografen.hero_subtitle: de_DE.json, en_US.json, fr_FR.json
@@ -217,8 +211,8 @@ kaart.theme_satellite: de_DE.json, fr_FR.json
 kaart.zoom_in: de_DE.json, fr_FR.json
 kaart.zoom_out: de_DE.json, fr_FR.json
 list.filter_all_countries: de_DE.json, fr_FR.json
-nav.all_photos: de_DE.json, en_US.json, fr_FR.json
-nav.explore: de_DE.json, en_US.json, fr_FR.json
-nav.list: de_DE.json, en_US.json, fr_FR.json
-nav.map: de_DE.json, en_US.json, fr_FR.json
-nav.photographers: de_DE.json, en_US.json, fr_FR.json
+nav.all_photos: de_DE.json, fr_FR.json
+nav.explore: de_DE.json, fr_FR.json
+nav.list: de_DE.json, fr_FR.json
+nav.map: de_DE.json, fr_FR.json
+nav.photographers: de_DE.json, fr_FR.json
