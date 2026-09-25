@@ -453,7 +453,9 @@
     "hide_filters": "Hide filters",
     "no_vehicles_for_filter": "No vehicles for the active filter.",
     "zoom_in": "Zoom in",
-    "zoom_out": "Zoom out"
+    "zoom_out": "Zoom out",
+    "theme_classic": "Classic",
+    "theme_satellite": "Satellite"
   },
   "post": {
     "page_title": "Post - HulpdienstvoertuigenBenelux",
