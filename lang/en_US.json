@@ -316,7 +316,8 @@
     "label_roepnummer_kenteken": "Call Sign / License Plate",
     "label_hulpdienst": "Emergency Service",
     "label_regio": "Region",
-    "label_photo_view_location": "Photo location"
+    "label_photo_view_location": "Photo location",
+    "filter_all_countries": "All Countries"
   },
   "upload": {
     "submitting": "Sending...",
@@ -449,7 +450,10 @@
     "twitter_title": "Map - HulpdienstvoertuigenBenelux",
     "twitter_description": "View all emergency service vehicles from the Netherlands, Belgium and Luxembourg on the interactive map.",
     "show_filters": "Show filters",
-    "hide_filters": "Hide filters"
+    "hide_filters": "Hide filters",
+    "no_vehicles_for_filter": "No vehicles for the active filter.",
+    "zoom_in": "Zoom in",
+    "zoom_out": "Zoom out"
   },
   "post": {
     "page_title": "Post - HulpdienstvoertuigenBenelux",
