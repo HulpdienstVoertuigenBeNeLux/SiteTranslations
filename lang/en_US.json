@@ -829,5 +829,25 @@
     "error": "Photographers could not be loaded.",
     "photos": "photos",
     "unknown": "Unknown"
+  },
+  "fotos": {
+    "page_title": "All photos - HulpdienstvoertuigenBenelux",
+    "hero_title": "All photos",
+    "hero_subtitle": "Browse all approved photos on this website, newest first.",
+    "loading": "Loading photos...",
+    "empty": "No photos found.",
+    "error": "Photos could not be loaded.",
+    "photos": "photos",
+    "page": "Page",
+    "of": "of",
+    "all_services": "All emergency services",
+    "all_photographers": "All photographers",
+    "reset": "Clear filters",
+    "sort_newest": "Newest first",
+    "sort_oldest": "Oldest first",
+    "sort_az": "A-Z",
+    "sort_za": "Z-A",
+    "prev": "Previous",
+    "next": "Next"
   }
 }
