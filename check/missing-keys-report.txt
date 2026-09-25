@@ -1,12 +1,12 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 797
-Source keys missing in at least one file: 56
+Total source keys: 799
+Source keys missing in at least one file: 58
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 56 missing
+de_DE.json: 58 missing
   - afkortingen.label_alt
   - afkortingen.label_criteria
   - afkortingen.label_opmerkingen
@@ -29,10 +29,12 @@ de_DE.json: 56 missing
   - fotos.hero_subtitle
   - fotos.hero_title
   - fotos.loading
+  - fotos.next
   - fotos.of
   - fotos.page
   - fotos.page_title
   - fotos.photos
+  - fotos.prev
   - fotos.reset
   - fotos.sort_az
   - fotos.sort_newest
@@ -64,25 +66,9 @@ de_DE.json: 56 missing
   - nav.map
   - nav.photographers
 
-en_US.json: 16 missing
-  - fotos.all_photographers
-  - fotos.all_services
-  - fotos.empty
-  - fotos.error
-  - fotos.hero_subtitle
-  - fotos.hero_title
-  - fotos.loading
-  - fotos.of
-  - fotos.page
-  - fotos.page_title
-  - fotos.photos
-  - fotos.reset
-  - fotos.sort_az
-  - fotos.sort_newest
-  - fotos.sort_oldest
-  - fotos.sort_za
+en_US.json: 0 missing
 
-fr_FR.json: 56 missing
+fr_FR.json: 58 missing
   - afkortingen.label_alt
   - afkortingen.label_criteria
   - afkortingen.label_opmerkingen
@@ -105,10 +91,12 @@ fr_FR.json: 56 missing
   - fotos.hero_subtitle
   - fotos.hero_title
   - fotos.loading
+  - fotos.next
   - fotos.of
   - fotos.page
   - fotos.page_title
   - fotos.photos
+  - fotos.prev
   - fotos.reset
   - fotos.sort_az
   - fotos.sort_newest
@@ -171,22 +159,24 @@ fotografen.loading: de_DE.json, fr_FR.json
 fotografen.page_title: de_DE.json, fr_FR.json
 fotografen.photos: de_DE.json, fr_FR.json
 fotografen.unknown: de_DE.json, fr_FR.json
-fotos.all_photographers: de_DE.json, en_US.json, fr_FR.json
-fotos.all_services: de_DE.json, en_US.json, fr_FR.json
-fotos.empty: de_DE.json, en_US.json, fr_FR.json
-fotos.error: de_DE.json, en_US.json, fr_FR.json
-fotos.hero_subtitle: de_DE.json, en_US.json, fr_FR.json
-fotos.hero_title: de_DE.json, en_US.json, fr_FR.json
-fotos.loading: de_DE.json, en_US.json, fr_FR.json
-fotos.of: de_DE.json, en_US.json, fr_FR.json
-fotos.page: de_DE.json, en_US.json, fr_FR.json
-fotos.page_title: de_DE.json, en_US.json, fr_FR.json
-fotos.photos: de_DE.json, en_US.json, fr_FR.json
-fotos.reset: de_DE.json, en_US.json, fr_FR.json
-fotos.sort_az: de_DE.json, en_US.json, fr_FR.json
-fotos.sort_newest: de_DE.json, en_US.json, fr_FR.json
-fotos.sort_oldest: de_DE.json, en_US.json, fr_FR.json
-fotos.sort_za: de_DE.json, en_US.json, fr_FR.json
+fotos.all_photographers: de_DE.json, fr_FR.json
+fotos.all_services: de_DE.json, fr_FR.json
+fotos.empty: de_DE.json, fr_FR.json
+fotos.error: de_DE.json, fr_FR.json
+fotos.hero_subtitle: de_DE.json, fr_FR.json
+fotos.hero_title: de_DE.json, fr_FR.json
+fotos.loading: de_DE.json, fr_FR.json
+fotos.next: de_DE.json, fr_FR.json
+fotos.of: de_DE.json, fr_FR.json
+fotos.page: de_DE.json, fr_FR.json
+fotos.page_title: de_DE.json, fr_FR.json
+fotos.photos: de_DE.json, fr_FR.json
+fotos.prev: de_DE.json, fr_FR.json
+fotos.reset: de_DE.json, fr_FR.json
+fotos.sort_az: de_DE.json, fr_FR.json
+fotos.sort_newest: de_DE.json, fr_FR.json
+fotos.sort_oldest: de_DE.json, fr_FR.json
+fotos.sort_za: de_DE.json, fr_FR.json
 fotowedstrijd.rules_button: de_DE.json, fr_FR.json
 fotowedstrijd.vote_button: de_DE.json, fr_FR.json
 fotowedstrijd.vote_text: de_DE.json, fr_FR.json
