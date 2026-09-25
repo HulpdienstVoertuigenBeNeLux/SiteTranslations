@@ -846,6 +846,8 @@
     "sort_newest": "Nieuwste eerst",
     "sort_oldest": "Oudste eerst",
     "sort_az": "A-Z",
-    "sort_za": "Z-A"
+    "sort_za": "Z-A",
+    "prev": "Vorige",
+    "next": "Volgende"
   }
 }
