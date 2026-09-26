@@ -821,7 +821,9 @@
     "loading": "Chargement...",
     "meta_description": "Informations détaillées sur les stations de service d'urgence et les véhicules. Numéro d'appel, plaque d'immatriculation, type et emplacement de la police, des pompiers, de l'ambulance et autres hulpdienstvoertuigen dans le Benelux.",
     "og_description": "Informations détaillées sur les stations de service d'urgence et les véhicules dans le Benelux.",
-    "twitter_description": "Informations détaillées sur les stations de service d'urgence et les véhicules dans le Benelux."
+    "twitter_description": "Informations détaillées sur les stations de service d'urgence et les véhicules dans le Benelux.",
+    "no_photo_yet": "Pas encore de photo disponible. Avez-vous photographié ce véhicule ou ce post ?",
+    "submit_photo": "Soumettre la photo"
   },
   "fotografen": {
     "empty": "Aucun photographe trouvé.",

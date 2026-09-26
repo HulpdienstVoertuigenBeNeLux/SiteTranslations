@@ -821,7 +821,9 @@
     "loading": "Laden...",
     "og_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen im Benelux.",
     "twitter_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen im Benelux.",
-    "meta_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen. Rufnummer, Kennzeichen, Art und Standort von Polizei, Feuerwehr, Krankenwagen und anderen hulpdienstvoertuigen im Benelux."
+    "meta_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen. Rufnummer, Kennzeichen, Art und Standort von Polizei, Feuerwehr, Krankenwagen und anderen hulpdienstvoertuigen im Benelux.",
+    "no_photo_yet": "Noch kein Foto verfügbar. Hast du dieses Fahrzeug oder diesen Post fotografiert?",
+    "submit_photo": "Foto einreichen"
   },
   "fotografen": {
     "empty": "Fotografen noch nicht gefunden.",
