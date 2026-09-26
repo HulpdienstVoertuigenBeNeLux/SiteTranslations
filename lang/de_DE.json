@@ -200,7 +200,10 @@
     "file_too_large": "ist größer als 25MB",
     "file_selected": "1 Datei ausgewählt",
     "login_required_error": "Du musst eingeloggt sein.",
-    "theme_label": "Thema:"
+    "theme_label": "Thema:",
+    "rules_button": "Regeln in Discord",
+    "vote_button": "Abstimmung in Discord",
+    "vote_text": "Sie setzen Stimmen in unserem Discord Server."
   },
   "home": {
     "meta_description": "Die vollständigste Datenbank für Einsatzfahrzeuge in den Benelux-Ländern. Entdecke tausende Polizeiautos, Feuerwehrfahrzeuge, Krankenwagen, Rettungsboote und mehr aus den Niederlanden, Belgien und Luxemburg. Aktuell, vollständig und kostenlos einsehbar. Suche nach Region, Dienst oder Kennzeichen.",
@@ -253,7 +256,18 @@
     "category_kmar_desc": "Sorgt für Grenzsicherheit und Kriminalitätsbekämpfung auf und um militärische Bereiche",
     "category_penitentiaire_inrichtingen_desc": "Zellenkomplex für Inhaftierte",
     "category_douane_desc": "Schützt die niederländischen Grenzen durch Kontrolle von Personen und Waren",
-    "category_rode_kruis_desc": "Das Rote Kreuz leistet weltweit Hilfe für jeden Menschen in Not"
+    "category_rode_kruis_desc": "Das Rote Kreuz leistet weltweit Hilfe für jeden Menschen in Not",
+    "contest_button": "Fotowettbewerb ansehen",
+    "contest_desc": "Bist du im nächsten Fotowettbewerb? Jeder kann mitmachen.",
+    "contest_image_alt": "Gewinnfoto",
+    "contest_title": "Fotowettbewerb",
+    "contest_unknown": "Unbekannt",
+    "contest_winner": "Gewinner",
+    "contest_winner_label": "Gewinner:",
+    "map_aria": "Öffnen Sie die Karte",
+    "map_button": "Öffnen Sie die Karte",
+    "map_desc": "Alle Posts und Fahrzeuge des PROTECTED TERM 0 auf einer interaktiven Karte. Finden, filtern und finden Sie heraus, was in Ihrer Nähe ist.",
+    "map_title": "Alles auf der Karte ansehen"
   },
   "list": {
     "page_title": "Übersichten - HulpdienstvoertuigenBenelux",
@@ -302,7 +316,8 @@
     "view_vehicle": "Fahrzeug ansehen",
     "label_hulpdienst": "Notdienst",
     "label_photo_view_location": "Standortfoto",
-    "label_regio": "Region"
+    "label_regio": "Region",
+    "filter_all_countries": "Alle Länder"
   },
   "upload": {
     "page_title": "Fotos hochladen - HulpdienstvoertuigenBenelux",
@@ -369,7 +384,13 @@
     "search_placeholder": "Suchen Sie nach einer Abkürzung oder Beschreibung",
     "twitter_description": "Sehen Sie sich alle in der Übersicht verwendeten Abkürzungen von hulpdienstvoertuigen aus den Niederlanden, Belgien und Luxemburg an.",
     "twitter_title": "Abkürzungen – HulpdienstvoertuigenBenelux",
-    "word": "Abkürzungen"
+    "word": "Abkürzungen",
+    "label_alt": "Alternative",
+    "label_criteria": "Kriterien",
+    "label_opmerkingen": "Bemerkungen",
+    "label_primair": "Primär/Rolle",
+    "label_serie": "Rufnummernreihe",
+    "view_more": "Mehr sehen"
   },
   "cookiebanner": {
     "accept_all": "Akzeptiere alles",
@@ -492,7 +513,8 @@
     "description": "Die umfassendste Übersicht über hulpdienstvoertuigen im Benelux. Entdecken, vergleichen und erfahren Sie mehr über die verschiedenen Fahrzeuge, die für unsere Sicherheit eingesetzt werden.",
     "navigation": "Navigation",
     "privacy": "Datenschutzrichtlinie",
-    "support": "Unterstützen Sie uns"
+    "support": "Unterstützen Sie uns",
+    "explore": "Entdecken"
   },
   "kaart": {
     "hide_filters": "Filter ausblenden",
@@ -502,7 +524,12 @@
     "page_title": "Karte – HulpdienstvoertuigenBenelux",
     "show_filters": "Filter anzeigen",
     "twitter_description": "Sehen Sie sich alle hulpdienstvoertuigen aus den Niederlanden, Belgien und Luxemburg auf der interaktiven Karte an.",
-    "twitter_title": "Karte – HulpdienstvoertuigenBenelux"
+    "twitter_title": "Karte – HulpdienstvoertuigenBenelux",
+    "no_vehicles_for_filter": "Keine Fahrzeuge für den aktiven Filter.",
+    "theme_classic": "Klassisch",
+    "theme_satellite": "Satelliten",
+    "zoom_in": "Zoom",
+    "zoom_out": "Zoom out"
   },
   "maintenance": {
     "admin_login": "Melden Sie sich als Administrator an",
@@ -534,7 +561,12 @@
     "profile": "Profil",
     "updates": "Aktualisierungen",
     "upload_photos": "Fotos hochladen",
-    "vehicles": "Fahrzeuge"
+    "vehicles": "Fahrzeuge",
+    "all_photos": "Bilder",
+    "explore": "Entdecken",
+    "list": "Liste",
+    "map": "Karte",
+    "photographers": "Unsere Fotografen"
   },
   "post": {
     "breadcrumb_map": "Karte",
@@ -790,5 +822,35 @@
     "og_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen im Benelux.",
     "twitter_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen im Benelux.",
     "meta_description": "Detaillierte Informationen zu Notdienststationen und Fahrzeugen. Rufnummer, Kennzeichen, Art und Standort von Polizei, Feuerwehr, Krankenwagen und anderen hulpdienstvoertuigen im Benelux."
+  },
+  "fotografen": {
+    "empty": "Fotografen noch nicht gefunden.",
+    "error": "Fotografen konnten nicht geladen werden.",
+    "hero_subtitle": "Alle Fotografen, die Fotos für diese Website bereitgestellt haben, sortiert nach Anzahl der genehmigten Fotos.",
+    "hero_title": "Unsere Fotografen",
+    "loading": "Fotografen laden...",
+    "page_title": "Unsere Fotografen - PROTECTED TERM 0",
+    "photos": "fotos",
+    "unknown": "Unbekannt"
+  },
+  "fotos": {
+    "all_photographers": "Alle Fotografen",
+    "all_services": "Alle Notdienste",
+    "empty": "Noch keine Bilder gefunden.",
+    "error": "Fotos konnten nicht geladen werden.",
+    "hero_subtitle": "Durchsuchen Sie alle genehmigten Fotos auf dieser Website, spätestens zuerst.",
+    "hero_title": "Bilder",
+    "loading": "Ladefotos...",
+    "next": "Weiter",
+    "of": "von",
+    "page": "Seite",
+    "page_title": "Alle Fotos - PROTECTED TERM 0",
+    "photos": "fotos",
+    "prev": "Vorherig",
+    "reset": "Klarfilter",
+    "sort_az": "A-Z",
+    "sort_newest": "Neuestes erstes",
+    "sort_oldest": "Ältester Erster",
+    "sort_za": "Z-A"
   }
 }

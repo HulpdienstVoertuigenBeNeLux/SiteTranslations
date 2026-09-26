@@ -200,7 +200,10 @@
     "file_too_large": "depasse 25MB",
     "file_selected": "1 fichier selectionne",
     "login_required_error": "Vous devez etre connecte.",
-    "theme_label": "Sujet:"
+    "theme_label": "Sujet:",
+    "rules_button": "Règles en désaccord",
+    "vote_button": "Vote en désaccord",
+    "vote_text": "Vous avez voté dans notre serveur Discord."
   },
   "home": {
     "meta_description": "La base de donnees la plus complete des vehicules de services d'urgence dans le Benelux. Decouvrez des milliers de voitures de police, camions de pompiers, ambulances, bateaux de sauvetage et plus encore des Pays-Bas, de Belgique et du Luxembourg. A jour, complete et gratuite a consulter. Recherchez par region, service ou plaque d'immatriculation.",
@@ -253,7 +256,18 @@
     "category_kmar_desc": "Assure la securite des frontieres et la prevention de la criminalite sur et autour des zones militaires",
     "category_penitentiaire_inrichtingen_desc": "Complexe cellulaire pour les detenus",
     "category_douane_desc": "Protège les frontieres neerlandaises en controlant les personnes et les marchandises",
-    "category_rode_kruis_desc": "La Croix-Rouge apporte une aide dans le monde entier a toute personne dans le besoin"
+    "category_rode_kruis_desc": "La Croix-Rouge apporte une aide dans le monde entier a toute personne dans le besoin",
+    "contest_button": "Regarder concours de photos",
+    "contest_desc": "Tu es dans le prochain concours de photos ? N'importe qui peut participer.",
+    "contest_image_alt": "Photos gagnantes",
+    "contest_title": "Concours de photos",
+    "contest_unknown": "Inconnu",
+    "contest_winner": "Gagnant",
+    "contest_winner_label": "Gagnant :",
+    "map_aria": "Ouvrir la carte",
+    "map_button": "Ouvrir la carte",
+    "map_desc": "Tous les messages et véhicules du TERME PROTÉGÉ 0 sur une carte interactive. Trouvez, filtrez et découvrez ce qui est près de vous.",
+    "map_title": "Voir tout sur la carte"
   },
   "list": {
     "page_title": "Apercus - HulpdienstvoertuigenBenelux",
@@ -302,7 +316,8 @@
     "view_vehicle": "Voir le véhicule",
     "label_hulpdienst": "Service d'urgence",
     "label_photo_view_location": "Photo de localisation",
-    "label_regio": "Région"
+    "label_regio": "Région",
+    "filter_all_countries": "Tous les pays"
   },
   "upload": {
     "page_title": "Televerser des photos - HulpdienstvoertuigenBenelux",
@@ -369,7 +384,13 @@
     "search_placeholder": "Rechercher une abréviation ou une description",
     "twitter_description": "Consultez toutes les abréviations utilisées dans l'aperçu de hulpdienstvoertuigen des Pays-Bas, de Belgique et du Luxembourg.",
     "twitter_title": "Abréviations - HulpdienstvoertuigenBenelux",
-    "word": "abréviations"
+    "word": "abréviations",
+    "label_alt": "Autre",
+    "label_criteria": "Critères",
+    "label_opmerkingen": "Commentaires",
+    "label_primair": "Rôle principal",
+    "label_serie": "Série de numéros d'appel",
+    "view_more": "Voir plus"
   },
   "cookiebanner": {
     "accept_all": "Acceptez tout",
@@ -492,7 +513,8 @@
     "description": "L'aperçu le plus complet de hulpdienstvoertuigen dans le Benelux. Découvrez, comparez et renseignez-vous sur les différents véhicules utilisés pour notre sécurité.",
     "navigation": "Navigation",
     "privacy": "politique de confidentialité",
-    "support": "Soutenez-nous"
+    "support": "Soutenez-nous",
+    "explore": "Explorer"
   },
   "kaart": {
     "hide_filters": "Masquer les filtres",
@@ -502,7 +524,12 @@
     "page_title": "Carte - HulpdienstvoertuigenBenelux",
     "show_filters": "Afficher les filtres",
     "twitter_description": "Visualisez tous les hulpdienstvoertuigen des Pays-Bas, de Belgique et du Luxembourg sur la carte interactive.",
-    "twitter_title": "Carte - HulpdienstvoertuigenBenelux"
+    "twitter_title": "Carte - HulpdienstvoertuigenBenelux",
+    "no_vehicles_for_filter": "Aucun véhicule pour le filtre actif.",
+    "theme_classic": "Classique",
+    "theme_satellite": "Satellite",
+    "zoom_in": "Zoomer",
+    "zoom_out": "Zoom arrière"
   },
   "maintenance": {
     "admin_login": "Connectez-vous en tant qu'administrateur",
@@ -534,7 +561,12 @@
     "profile": "Profil",
     "updates": "Mises à jour",
     "upload_photos": "Télécharger des photos",
-    "vehicles": "Véhicules"
+    "vehicles": "Véhicules",
+    "all_photos": "Images",
+    "explore": "Explorer",
+    "list": "Liste",
+    "map": "Carte",
+    "photographers": "Nos photographes"
   },
   "post": {
     "breadcrumb_map": "Carte",
@@ -790,5 +822,35 @@
     "meta_description": "Informations détaillées sur les stations de service d'urgence et les véhicules. Numéro d'appel, plaque d'immatriculation, type et emplacement de la police, des pompiers, de l'ambulance et autres hulpdienstvoertuigen dans le Benelux.",
     "og_description": "Informations détaillées sur les stations de service d'urgence et les véhicules dans le Benelux.",
     "twitter_description": "Informations détaillées sur les stations de service d'urgence et les véhicules dans le Benelux."
+  },
+  "fotografen": {
+    "empty": "Aucun photographe trouvé.",
+    "error": "Les photographes ne pouvaient pas être chargés.",
+    "hero_subtitle": "Tous les photographes qui ont fourni des photos pour ce site, triés par le nombre de photos approuvées.",
+    "hero_title": "Nos photographes",
+    "loading": "Chargez des photographes...",
+    "page_title": "Nos photographes - PROTÉGÉ TERM 0",
+    "photos": "photos",
+    "unknown": "Inconnu"
+  },
+  "fotos": {
+    "all_photographers": "Tous les photographes",
+    "all_services": "Tous les services d'urgence",
+    "empty": "Aucune photo trouvée.",
+    "error": "Les photos ne pouvaient pas être chargées.",
+    "hero_subtitle": "Parcourez toutes les photos approuvées sur ce site, en premier.",
+    "hero_title": "Images",
+    "loading": "Chargez des photos...",
+    "next": "Suivant",
+    "of": "des",
+    "page": "Page",
+    "page_title": "Toutes les photos - TERME PROTÉGÉ 0",
+    "photos": "photos",
+    "prev": "Précédent",
+    "reset": "Effacer les filtres",
+    "sort_az": "A-Z",
+    "sort_newest": "Première",
+    "sort_oldest": "Le plus vieux d'abord",
+    "sort_za": "Z-A"
   }
 }
