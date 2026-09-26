@@ -267,7 +267,11 @@
     "map_aria": "Ouvrir la carte",
     "map_button": "Ouvrir la carte",
     "map_desc": "Tous les messages et véhicules du TERME PROTÉGÉ 0 sur une carte interactive. Trouvez, filtrez et découvrez ce qui est près de vous.",
-    "map_title": "Voir tout sur la carte"
+    "map_title": "Voir tout sur la carte",
+    "category_civiele_bescherming_desc": "Protège la population en cas de catastrophe et d'urgence",
+    "category_feuerwehr_desc": "Prévention des incendies et des incendies à Luxembourg",
+    "category_rettungsdienst_desc": "Services de secours et d'urgence au Luxembourg",
+    "category_sanquin_desc": "Approvisionnement en sang et transfusion de sang aux Pays-Bas"
   },
   "list": {
     "page_title": "Apercus - HulpdienstvoertuigenBenelux",
@@ -833,7 +837,8 @@
     "loading": "Chargez des photographes...",
     "page_title": "Nos photographes - PROTÉGÉ TERM 0",
     "photos": "photos",
-    "unknown": "Inconnu"
+    "unknown": "Inconnu",
+    "photo_one": "photo"
   },
   "fotos": {
     "all_photographers": "Tous les photographes",
@@ -853,6 +858,7 @@
     "sort_az": "A-Z",
     "sort_newest": "Première",
     "sort_oldest": "Le plus vieux d'abord",
-    "sort_za": "Z-A"
+    "sort_za": "Z-A",
+    "photo_one": "photo"
   }
 }
