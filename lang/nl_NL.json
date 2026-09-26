@@ -267,7 +267,11 @@
     "category_penitentiaire_inrichtingen_desc": "Cellencomplex voor gedetineerden",
     "category_douane_desc": "Bewaakt de Nederlandse grenzen door controle van personen en goederen",
     "category_rode_kruis_desc": "Het Rode Kruis biedt wereldwijd hulp aan iedereen die dat nodig heeft",
-    "map_aria": "Open de kaart"
+    "map_aria": "Open de kaart",
+    "category_feuerwehr_desc": "Brandbestrijding en brandpreventie in Luxemburg",
+    "category_rettungsdienst_desc": "Reddingsdienst en spoedeisende hulpverlening in Luxemburg",
+    "category_civiele_bescherming_desc": "Beschermt de bevolking bij rampen en noodsituaties",
+    "category_sanquin_desc": "Bloedvoorziening en bloedtransfusie in Nederland"
   },
   "list": {
     "page_title": "Overzichten - HulpdienstvoertuigenBenelux",
@@ -830,7 +834,8 @@
     "empty": "Nog geen fotografen gevonden.",
     "error": "Fotografen konden niet geladen worden.",
     "photos": "foto's",
-    "unknown": "Onbekend"
+    "unknown": "Onbekend",
+    "photo_one": "foto"
   },
   "fotos": {
     "page_title": "Alle foto's - HulpdienstvoertuigenBenelux",
@@ -850,6 +855,7 @@
     "sort_az": "A-Z",
     "sort_za": "Z-A",
     "prev": "Vorige",
-    "next": "Volgende"
+    "next": "Volgende",
+    "photo_one": "foto"
   }
 }
