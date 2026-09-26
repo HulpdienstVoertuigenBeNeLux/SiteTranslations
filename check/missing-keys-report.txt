@@ -2,27 +2,15 @@ Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
 Total source keys: 807
-Source keys missing in at least one file: 6
+Source keys missing in at least one file: 0
 
 Missing source keys by file
 ---------------------------
-de_DE.json: 6 missing
-  - fotografen.photo_one
-  - fotos.photo_one
-  - home.category_civiele_bescherming_desc
-  - home.category_feuerwehr_desc
-  - home.category_rettungsdienst_desc
-  - home.category_sanquin_desc
+de_DE.json: 0 missing
 
 en_US.json: 0 missing
 
-fr_FR.json: 6 missing
-  - fotografen.photo_one
-  - fotos.photo_one
-  - home.category_civiele_bescherming_desc
-  - home.category_feuerwehr_desc
-  - home.category_rettungsdienst_desc
-  - home.category_sanquin_desc
+fr_FR.json: 0 missing
 
 Extra keys not in source
 ------------------------
@@ -40,9 +28,4 @@ fr_FR.json: 3 extra
 
 Missing files by key
 --------------------
-fotografen.photo_one: de_DE.json, fr_FR.json
-fotos.photo_one: de_DE.json, fr_FR.json
-home.category_civiele_bescherming_desc: de_DE.json, fr_FR.json
-home.category_feuerwehr_desc: de_DE.json, fr_FR.json
-home.category_rettungsdienst_desc: de_DE.json, fr_FR.json
-home.category_sanquin_desc: de_DE.json, fr_FR.json
+No missing keys detected. All files contain the same leaf keys.
