@@ -10,6 +10,11 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+  queue: max
+
 jobs:
   auto-translate:
     runs-on: ubuntu-latest

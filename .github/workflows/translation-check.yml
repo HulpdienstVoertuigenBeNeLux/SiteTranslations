@@ -9,6 +9,11 @@ permissions:
   contents: write
   actions: write
 
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+  queue: max
+
 jobs:
   check-translations:
     runs-on: ubuntu-latest
