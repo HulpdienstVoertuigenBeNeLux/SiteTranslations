@@ -27,7 +27,9 @@ jobs:
         run: pip install deep-translator
 
       - name: Run auto-translate script
-        run: python check/auto_translate.py
+        run: |
+          git pull
+          python check/auto_translate.py
 
       - name: Create pull request with translated keys
         env:

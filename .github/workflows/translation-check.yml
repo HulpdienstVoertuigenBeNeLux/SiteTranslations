@@ -27,6 +27,7 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          git pull
           if [ -n "$DISCORD_WEBHOOK_URL" ]; then
             python check/compare_lang_keys.py --discord-webhook "$DISCORD_WEBHOOK_URL"
           else
