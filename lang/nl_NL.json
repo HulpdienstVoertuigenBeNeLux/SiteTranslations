@@ -509,7 +509,9 @@
     "og_description": "Gedetailleerde informatie over hulpdienstposten en -voertuigen in de Benelux.",
     "twitter_description": "Gedetailleerde informatie over hulpdienstposten en -voertuigen in de Benelux.",
     "breadcrumb_home": "Home",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "no_photo_yet": "Nog geen foto beschikbaar. Heb jij dit voertuig of deze post gefotografeerd?",
+    "submit_photo": "Foto inzenden"
   },
   "error404": {
     "page_title": "404 - Pagina niet gevonden - HulpdienstvoertuigenBenelux",
