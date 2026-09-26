@@ -267,7 +267,11 @@
     "contest_image_alt": "Winning photo",
     "contest_unknown": "Unknown",
     "contest_winner_label": "Winner: ",
-    "map_aria": "Open the map"
+    "map_aria": "Open the map",
+    "category_feuerwehr_desc": "Firefighting and fire prevention in Luxembourg",
+    "category_rettungsdienst_desc": "Rescue services and emergency medical assistance in Luxembourg",
+    "category_civiele_bescherming_desc": "Protects the population during disasters and emergencies",
+    "category_sanquin_desc": "Blood supply and blood transfusion in the Netherlands"
   },
   "list": {
     "page_title": "Overviews - HulpdienstvoertuigenBenelux",
@@ -830,7 +834,8 @@
     "empty": "No photographers found yet.",
     "error": "Photographers could not be loaded.",
     "photos": "photos",
-    "unknown": "Unknown"
+    "unknown": "Unknown",
+    "photo_one": "photo"
   },
   "fotos": {
     "page_title": "All photos - HulpdienstvoertuigenBenelux",
@@ -850,6 +855,7 @@
     "sort_az": "A-Z",
     "sort_za": "Z-A",
     "prev": "Previous",
-    "next": "Next"
+    "next": "Next",
+    "photo_one": "photo"
   }
 }
