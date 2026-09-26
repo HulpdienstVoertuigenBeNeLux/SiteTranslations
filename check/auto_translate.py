@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import subprocess
 import sys
@@ -11,7 +12,9 @@ import time
 from pathlib import Path
 from typing import Any
 
+import requests
 from deep_translator import GoogleTranslator
+from deep_translator.exceptions import TooManyRequests
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
@@ -24,8 +27,30 @@ PROTECTED_TERMS = [
     "Hulpdienstvoertuigen",
     "BeNeLux",
 ]
-# Small delay between API calls to avoid rate limiting.
-TRANSLATE_DELAY_SECONDS = 0.2
+# Google allows ~5 req/s; stay well below that.
+TRANSLATE_DELAY_SECONDS = 1.0
+MAX_RETRIES = 5
+RETRY_BASE_DELAY_SECONDS = 5.0
+
+
+class RateLimitedError(Exception):
+    pass
+
+
+class LibreTranslateClient:
+    def __init__(self, base_url: str, source: str, target: str) -> None:
+        self.url = base_url.rstrip("/") + "/translate"
+        self.source = source
+        self.target = target
+
+    def translate(self, text: str) -> str:
+        response = requests.post(
+            self.url,
+            json={"q": text, "source": self.source, "target": self.target, "format": "text"},
+            timeout=120,
+        )
+        response.raise_for_status()
+        return response.json()["translatedText"]
 
 
 def flatten_leaf_keys(value: Any, prefix: str = "") -> set[str]:
@@ -113,19 +138,31 @@ def get_source_from_main() -> dict:
         return json.loads(source_path.read_text(encoding="utf-8"))
 
 
-def translate_value(value: Any, translator: GoogleTranslator) -> tuple[Any, bool]:
+def translate_value(
+    value: Any, translator: GoogleTranslator | LibreTranslateClient
+) -> tuple[Any, bool]:
     if not isinstance(value, str) or not value.strip():
         return value, True
 
     protected_value, replacements = protect_terms(value, PROTECTED_TERMS)
 
-    try:
-        result = translator.translate(protected_value)
-        translated = result if result else protected_value
-        return restore_terms(translated, replacements), True
-    except Exception as exc:
-        print(f"  Warning: translation failed ({exc}), skipping this key.", file=sys.stderr)
-        return None, False
+    for attempt in range(MAX_RETRIES):
+        try:
+            result = translator.translate(protected_value)
+            translated = result if result else protected_value
+            return restore_terms(translated, replacements), True
+        except TooManyRequests:
+            wait = RETRY_BASE_DELAY_SECONDS * (2 ** attempt)
+            print(
+                f"  Rate limited, retrying in {wait:.0f}s ({attempt + 1}/{MAX_RETRIES})...",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+        except Exception as exc:
+            print(f"  Warning: translation failed ({exc}), skipping this key.", file=sys.stderr)
+            return None, False
+
+    raise RateLimitedError("Still rate limited after retries.")
 
 
 def main() -> int:
@@ -135,6 +172,10 @@ def main() -> int:
 
     locale_files = sorted(LANG_DIR.glob("*.json"))
     any_translated = False
+
+    libre_url = os.environ.get("LIBRETRANSLATE_URL")
+    delay = 0.0 if libre_url else TRANSLATE_DELAY_SECONDS
+    print(f"Using {'LibreTranslate at ' + libre_url if libre_url else 'Google Translate'}.")
 
     for file_path in locale_files:
         if file_path.name == SOURCE_FILE:
@@ -150,23 +191,32 @@ def main() -> int:
             continue
 
         print(f"{file_path.name}: translating {len(missing_keys)} missing keys to '{target_lang}'...")
-        translator = GoogleTranslator(source=SOURCE_LANG, target=target_lang)
+        if libre_url:
+            translator = LibreTranslateClient(libre_url, SOURCE_LANG, target_lang)
+        else:
+            translator = GoogleTranslator(source=SOURCE_LANG, target=target_lang)
         translated_count = 0
         skipped_count = 0
+        rate_limited = False
 
         for key in missing_keys:
             source_value = get_nested(source_data, key)
-            translated, ok = translate_value(source_value, translator)
+            try:
+                translated, ok = translate_value(source_value, translator)
+            except RateLimitedError as exc:
+                print(f"  {exc} Stopping; progress so far will be saved.", file=sys.stderr)
+                rate_limited = True
+                break
             if not ok:
                 skipped_count += 1
                 print(f"  {key}: skipped (translation failed)")
-                time.sleep(TRANSLATE_DELAY_SECONDS)
+                time.sleep(delay)
                 continue
 
             set_nested(target_data, key, translated)
             translated_count += 1
             print(f"  {key}: {repr(translated)}")
-            time.sleep(TRANSLATE_DELAY_SECONDS)
+            time.sleep(delay)
 
         if translated_count > 0:
             file_path.write_text(
@@ -177,6 +227,10 @@ def main() -> int:
             any_translated = True
         else:
             print(f"{file_path.name}: no keys added ({skipped_count} skipped).")
+
+        if rate_limited:
+            print("Aborting remaining locales due to rate limiting. Try again later.", file=sys.stderr)
+            return 1
 
     if not any_translated:
         print("Nothing to translate.")
