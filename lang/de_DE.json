@@ -267,7 +267,11 @@
     "map_aria": "Öffnen Sie die Karte",
     "map_button": "Öffnen Sie die Karte",
     "map_desc": "Alle Posts und Fahrzeuge des PROTECTED TERM 0 auf einer interaktiven Karte. Finden, filtern und finden Sie heraus, was in Ihrer Nähe ist.",
-    "map_title": "Alles auf der Karte ansehen"
+    "map_title": "Alles auf der Karte ansehen",
+    "category_civiele_bescherming_desc": "Schützt die Bevölkerung bei Katastrophen und Notfällen",
+    "category_feuerwehr_desc": "Brandschutz und Brandschutz in Luxemburg",
+    "category_rettungsdienst_desc": "Rettungs- und Rettungsdienste in Luxemburg",
+    "category_sanquin_desc": "Blutversorgung und Bluttransfusion in den Niederlanden"
   },
   "list": {
     "page_title": "Übersichten - HulpdienstvoertuigenBenelux",
@@ -833,7 +837,8 @@
     "loading": "Fotografen laden...",
     "page_title": "Unsere Fotografen - PROTECTED TERM 0",
     "photos": "fotos",
-    "unknown": "Unbekannt"
+    "unknown": "Unbekannt",
+    "photo_one": "foto"
   },
   "fotos": {
     "all_photographers": "Alle Fotografen",
@@ -853,6 +858,7 @@
     "sort_az": "A-Z",
     "sort_newest": "Neuestes erstes",
     "sort_oldest": "Ältester Erster",
-    "sort_za": "Z-A"
+    "sort_za": "Z-A",
+    "photo_one": "foto"
   }
 }
