@@ -960,6 +960,8 @@
     "hero_subtitle": "Hoe zijn de hulpdiensten in de Benelux georganiseerd?",
     "search_placeholder": "Zoek een hulpdienst",
     "loading": "Gegevens laden...",
-    "note": "De aantallen komen rechtstreeks uit onze database en veranderen mee met elke update. Mis je iets of klopt er iets niet? Laat het ons weten via de <a href=\"/contact\" class=\"hd-link\">contactpagina</a>."
+    "note": "De aantallen komen rechtstreeks uit onze database en veranderen mee met elke update. Mis je iets of klopt er iets niet? Laat het ons weten via de <a href=\"/contact\" class=\"hd-link\">contactpagina</a>.",
+    "tag_post": "post",
+    "tag_vehicle": "voertuig"
   }
 }
