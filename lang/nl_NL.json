@@ -70,7 +70,8 @@
     "faq_a8": "Ja, dat kan. Als je geïnteresseerd bent, neem dan contact op met een van de beheerders of maak een ticket aan in <a href=\"https://discord.com/channels/1270750242270351592/1457685596465266834\" target=\"_blank\" rel=\"noopener noreferrer\">onze Discord-server</a>.",
     "gallery_title": "Fotogalerij",
     "copyright_text": "Hulpdienstvoertuigen BeNeLux - Op alle afbeeldingen en informatie zit Copyright",
-    "page_title": "Over Ons - HulpdienstvoertuigenBenelux"
+    "page_title": "Over Ons - HulpdienstvoertuigenBenelux",
+    "copyright_note": "Alle afbeeldingen en informatie op deze website zijn auteursrechtelijk beschermd"
   },
   "contact": {
     "page_title": "Contact - HulpdienstvoertuigenBenelux",
@@ -157,7 +158,14 @@
     "empty_text": "Nog geen donaties ontvangen. Wees de eerste!",
     "error_text": "Donaties konden niet worden geladen.",
     "badge_subscriber": "Lid",
-    "goal_description": "Maandelijks doel voor hosting, domein en onderhoud"
+    "goal_description": "Maandelijks doel voor hosting, domein en onderhoud",
+    "anonymous": "Anoniem",
+    "count_many": "{n} donaties",
+    "count_one": "1 donatie",
+    "toggle_leaderboard": "Leaderboard",
+    "toggle_recent": "Recent",
+    "wall_leaderboard": "Top donateurs",
+    "wall_recent": "Recente donaties"
   },
   "fotowedstrijd": {
     "page_title": "Fotowedstrijd - HulpdienstvoertuigenBenelux",
@@ -273,7 +281,10 @@
     "category_feuerwehr_desc": "Brandbestrijding en brandpreventie in Luxemburg",
     "category_rettungsdienst_desc": "Reddingsdienst en spoedeisende hulpverlening in Luxemburg",
     "category_civiele_bescherming_desc": "Beschermt de bevolking bij rampen en noodsituaties",
-    "category_sanquin_desc": "Bloedvoorziening en bloedtransfusie in Nederland"
+    "category_sanquin_desc": "Bloedvoorziening en bloedtransfusie in Nederland",
+    "hero_stat_photographers": "Fotografen",
+    "hero_stat_photos": "Foto's",
+    "hero_stat_vehicles": "Voertuigen"
   },
   "list": {
     "page_title": "Overzichten - HulpdienstvoertuigenBenelux",
@@ -398,7 +409,8 @@
     "list": "Lijst",
     "explore": "Verken",
     "photographers": "Onze fotografen",
-    "all_photos": "Alle foto's"
+    "all_photos": "Alle foto's",
+    "services": "Hulpdiensten"
   },
   "footer": {
     "description": "Het meest complete overzicht van hulpdienstvoertuigen in de Benelux. Ontdek, vergelijk en leer over de verschillende voertuigen die worden ingezet voor onze veiligheid.",
@@ -493,7 +505,8 @@
     "no_vehicles": "Geen voertuigen gevonden op deze post.",
     "map_title": "Locatie op de kaart",
     "map_full": "Bekijk volledige kaart",
-    "invalid_url": "Ongeldige link"
+    "invalid_url": "Ongeldige link",
+    "info_title": "Informatie"
   },
   "voertuigen": {
     "page_title": "Voertuig - HulpdienstvoertuigenBenelux",
@@ -513,7 +526,8 @@
     "details_title": "Voertuiginformatie",
     "map_title": "Locatie op de kaart",
     "map_full": "Bekijk volledige kaart",
-    "invalid_url": "Ongeldige link"
+    "invalid_url": "Ongeldige link",
+    "rdw_title": "Extra voertuiggegevens"
   },
   "detail": {
     "meta_description": "Gedetailleerde informatie over hulpdienstposten en -voertuigen. Roepnummer, kenteken, type en locatie van politie, brandweer, ambulance en andere hulpdienstvoertuigen in de Benelux.",
@@ -864,5 +878,8 @@
     "prev": "Vorige",
     "next": "Volgende",
     "photo_one": "foto"
+  },
+  "auth": {
+    "page_title": "Inloggen - HulpdienstvoertuigenBenelux"
   }
 }
