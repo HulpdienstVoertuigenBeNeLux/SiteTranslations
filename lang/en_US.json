@@ -166,7 +166,9 @@
     "toggle_recent": "Recent",
     "wall_leaderboard": "Top donors",
     "wall_recent": "Recent donations",
-    "every_donation": "Every donation, big or small, helps this unique resource keep growing."
+    "every_donation": "Every donation, big or small, helps this unique resource keep growing.",
+    "support_lead": "Do you find this site useful? Help us keep the database online and up to date.",
+    "support_contribution": "Your contribution lets us keep paying for hosting and maintenance and keep expanding all vehicle data."
   },
   "fotowedstrijd": {
     "page_title": "Photo Contest - HulpdienstvoertuigenBenelux",
