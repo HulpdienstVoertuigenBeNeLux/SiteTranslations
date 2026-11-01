@@ -963,6 +963,8 @@
     "text_shared_ziekenhuizen": "Les hôpitaux dotés d'un service d'urgence sont la destination de nombreux trajets en ambulance. Certains hôpitaux ont une hélistation pour l'hélicoptère médical.",
     "view_in_list": "Afficher {service} dans la liste",
     "view_less": "Voir moins",
-    "view_more": "Voir plus"
+    "view_more": "Voir plus",
+    "tag_post": "emplacement",
+    "tag_vehicle": "véhicule"
   }
 }
