@@ -963,6 +963,8 @@
     "text_shared_ziekenhuizen": "Krankenhäuser mit Notaufnahme sind das Ziel vieler Rettungsfahrten. Einige Krankenhäuser haben einen Hubschrauberlandeplatz für den Rettungshubschrauber.",
     "view_in_list": "{service} in der Liste ansehen",
     "view_less": "Weniger anzeigen",
-    "view_more": "Mehr anzeigen"
+    "view_more": "Mehr anzeigen",
+    "tag_post": "Standort",
+    "tag_vehicle": "Fahrzeug"
   }
 }
