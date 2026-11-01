@@ -960,6 +960,8 @@
     "text_shared_ziekenhuizen": "Hospitals with an emergency department are the destination of many ambulance journeys. Some hospitals have a helipad for the trauma helicopter.",
     "view_in_list": "View {service} in the list",
     "view_less": "View less",
-    "view_more": "View more"
+    "view_more": "View more",
+    "tag_post": "building",
+    "tag_vehicle": "vehicle"
   }
 }
