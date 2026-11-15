@@ -400,7 +400,9 @@
     "post_only_service": "This emergency service is listed under buildings. Use the “Building” mode to upload for it.",
     "rights_checkbox": "I took these photos myself or have the photographer's permission, and I consent to publication on this website.",
     "rights_required": "Tick the box to confirm you hold the rights to these photos.",
-    "submit_hint": "Choose a vehicle or building, add a photo and tick the box to submit."
+    "submit_hint": "Choose a vehicle or building, add a photo and tick the box to submit.",
+    "network_error": "The connection was lost while sending. Your submission may still have arrived: check \"Pending\" on your profile before sending it again.",
+    "photo_pinned": "The current photo has been locked by the moderators. New photos are not accepted for this one."
   },
   "nav": {
     "home": "Home",
