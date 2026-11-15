@@ -400,7 +400,9 @@
     "post_only_service": "Ce service est classé sous les emplacements. Utilisez le mode « Emplacement » pour envoyer une photo.",
     "rights_checkbox": "J'ai pris ces photos moi-même ou j'ai l'autorisation du photographe, et j'accepte leur publication sur ce site.",
     "rights_required": "Cochez la case pour confirmer que vous détenez les droits sur ces photos.",
-    "submit_hint": "Choisissez un véhicule ou un emplacement, ajoutez une photo et cochez la case pour envoyer."
+    "submit_hint": "Choisissez un véhicule ou un emplacement, ajoutez une photo et cochez la case pour envoyer.",
+    "network_error": "La connexion a été interrompue pendant l'envoi. Ta soumission est peut-être quand même arrivée : vérifie « En cours » sur ton profil avant de la renvoyer.",
+    "photo_pinned": "La photo actuelle a été verrouillée par les modérateurs. Les nouvelles photos ne sont plus acceptées pour celle-ci."
   },
   "afkortingen": {
     "empty": "Aucune abréviation disponible pour ce pays pour l'instant.",

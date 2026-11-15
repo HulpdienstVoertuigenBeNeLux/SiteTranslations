@@ -400,7 +400,9 @@
     "rights_checkbox": "Ik heb deze foto's zelf gemaakt of heb toestemming van de maker, en ik geef toestemming voor publicatie op deze website.",
     "rights_required": "Vink aan dat je de rechten op deze foto's hebt.",
     "submit_hint": "Kies een voertuig of post, voeg een foto toe en vink het vakje aan om te versturen.",
-    "post_only_service": "Deze hulpdienst valt onder posten. Gebruik de modus “Post” om hiervoor te uploaden."
+    "post_only_service": "Deze hulpdienst valt onder posten. Gebruik de modus “Post” om hiervoor te uploaden.",
+    "network_error": "De verbinding viel weg tijdens het verzenden. Je inzending kan toch zijn aangekomen: kijk op je profiel bij \"In behandeling\" voordat je opnieuw verstuurt.",
+    "photo_pinned": "De huidige foto hiervan is vastgezet door de beheerders. Nieuwe foto's worden hiervoor niet aangenomen."
   },
   "nav": {
     "home": "Home",

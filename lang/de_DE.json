@@ -400,7 +400,9 @@
     "post_only_service": "Dieser Dienst wird unter Standorten geführt. Verwenden Sie den Modus „Standort“, um dafür hochzuladen.",
     "rights_checkbox": "Ich habe diese Fotos selbst gemacht oder habe die Erlaubnis des Fotografen, und ich stimme der Veröffentlichung auf dieser Website zu.",
     "rights_required": "Bestätigen Sie mit dem Häkchen, dass Sie die Rechte an diesen Fotos haben.",
-    "submit_hint": "Wählen Sie ein Fahrzeug oder einen Standort, fügen Sie ein Foto hinzu und setzen Sie das Häkchen, um zu senden."
+    "submit_hint": "Wählen Sie ein Fahrzeug oder einen Standort, fügen Sie ein Foto hinzu und setzen Sie das Häkchen, um zu senden.",
+    "network_error": "Die Verbindung wurde beim Senden unterbrochen. Deine Einsendung ist möglicherweise trotzdem angekommen: Prüfe in deinem Profil unter „Im Gange“, bevor du sie erneut sendest.",
+    "photo_pinned": "Das aktuelle Foto wurde von den Moderatoren festgelegt. Neue Fotos werden hierfür nicht angenommen."
   },
   "afkortingen": {
     "empty": "Für dieses Land sind noch keine Abkürzungen verfügbar.",
