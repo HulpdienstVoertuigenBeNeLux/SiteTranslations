@@ -1,7 +1,7 @@
 Locale key comparison report (source-based)
 ===========================================
 Source file: nl_NL.json
-Total source keys: 979
+Total source keys: 981
 Source keys missing in at least one file: 0
 
 Missing source keys by file
