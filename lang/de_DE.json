@@ -629,7 +629,8 @@
     "twitter_description": "Sehen Sie sich die Details einer Notdienststation und deren Standort auf der Karte an.",
     "twitter_title": "Beitrag – HulpdienstvoertuigenBenelux",
     "vehicles_title": "Fahrzeuge",
-    "info_title": "Information"
+    "info_title": "Information",
+    "vehicle_no_photo": "Noch kein Foto"
   },
   "privacy": {
     "back_to_top": "Zurück nach oben",

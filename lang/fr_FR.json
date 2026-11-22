@@ -629,7 +629,8 @@
     "twitter_description": "Affichez les détails d'une station de service d'urgence et son emplacement sur la carte.",
     "twitter_title": "Message - HulpdienstvoertuigenBenelux",
     "vehicles_title": "Véhicules",
-    "info_title": "Informations"
+    "info_title": "Informations",
+    "vehicle_no_photo": "Pas encore de photo"
   },
   "privacy": {
     "back_to_top": "Retour en haut",

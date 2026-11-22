@@ -524,7 +524,8 @@
     "map_title": "Location on the map",
     "map_full": "View full map",
     "invalid_url": "Invalid link",
-    "info_title": "Information"
+    "info_title": "Information",
+    "vehicle_no_photo": "No photo yet"
   },
   "voertuigen": {
     "page_title": "Vehicle - HulpdienstvoertuigenBenelux",
